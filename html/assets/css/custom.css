@@ -1,1 +1,110 @@
+body {font-family: 'Noto Sans KR', "Roboto", Arial, sans-serif}
+
+.c10 {width: 10%}
+.c20 {width: 20%}
+.c30 {width: 30%}
+.c60 {width: 60%}
+.c70 {width: 70%}
+.c80 {width: 80%}
+
+.mt-10 {margin-top:-10px}
+.mt-9 {margin-top:-9px}
+.mt5 {margin-top:5px}
+.mt7 {margin-top:7px}
+.mt10 {margin-top:10px}
+.mt12 {margin-top:12px}
+.mt15 {margin-top:15px}
+.mt16 {margin-top:16px}
+.mt17 {margin-top:17px}
+.mt20 {margin-top:20px}
+.mt25 {margin-top:25px}
+.mt30 {margin-top:30px}
+.mt35 {margin-top:35px}
+.mt38 {margin-top:38px}
+.mt40 {margin-top:40px}
+.mt50 {margin-top:50px}
+.mt60 {margin-top:60px}
+.mt70 {margin-top:70px}
+.mt75 {margin-top:75px}
+.mt100 {margin-top:100px}
+.mt140 {margin-top:140px}
+.mb5 {margin-bottom:5px}
+.mb-4 {margin-bottom:-4px}
+.mb-10 {margin-bottom:-10px}
+.mb4 {margin-bottom:4px}
+.mb6 {margin-bottom:6px}
+.mb8 {margin-bottom:8px}
+.mb9 {margin-bottom:9px}
+.mb10 {margin-bottom:10px}
+.mb12 {margin-bottom:12px}
+.mb14 {margin-bottom:14px}
+.mb13 {margin-bottom:13px}
+.mb15 {margin-bottom:15px}
+.mb16 {margin-bottom:16px}
+.mb17 {margin-bottom:17px}
+.mb18 {margin-bottom:18px}
+.mb20 {margin-bottom:20px}
+.mb21 {margin-bottom:21px}
+.mb23 {margin-bottom:23px}
+.mb24 {margin-bottom:24px}
+.mb25 {margin-bottom:25px}
+.mb28 {margin-bottom:28px}
+.mb29 {margin-bottom:29px}
+.mb30 {margin-bottom:30px}
+.mb32 {margin-bottom:32px}
+.mb35 {margin-bottom:35px}
+.mb36 {margin-bottom:36px}
+.mb37 {margin-bottom:37px}
+.mb38 {margin-bottom:38px}
+.mb40 {margin-bottom:40px}
+.mb45 {margin-bottom:45px}
+.mb50 {margin-bottom:50px}
+.mb55 {margin-bottom:55px}
+.mb56 {margin-bottom:56px}
+.mb60 {margin-bottom:60px}
+.mb68 {margin-bottom:68px}
+.mb90 {margin-bottom:90px}
+.mb100 {margin-bottom:100px}
+.mb118 {margin-bottom:118px}
+.mb120 {margin-bottom:120px}
+.mb170 {margin-bottom:170px}
+.ml-10 {margin-left:-10px}
+.ml5 {margin-left:5px}
+.ml8 {margin-left:8px}
+.ml10 {margin-left:10px}
+.ml15 {margin-left:15px}
+.ml17 {margin-left:17px}
+.ml20 {margin-left:20px}
+.ml30 {margin-left:30px}
+.ml70 {margin-left:70px}
+.ml103 {margin-left:103px}
+.ml126 {margin-left:126px}
+.ml133 {margin-left:133px}
+.ml45 {margin-left:45px}
+.mr5 {margin-right:5px}
+.mr10 {margin-right:10px}
+.mr14 {margin-right:14px}
+.mr18 {margin-right:18px}
+.mr20 {margin-right:20px}
+.mr30 {margin-right:30px}
+.mr40 {margin-right:40px}
+.mr45 {margin-right:45px}
+.mr70 {margin-right:70px}
+.mr112 {margin-right:112px}
+
+.text_right{text-align:right}
+.text_left{text-align:left}
+.text_center{text-align:center}
+
+.block {display: block}
+
 .be-top-header .be-navbar-header .navbar-brand {background-image: url(../img/elsol_logo.png);width: 180px;height: 45px}
+.card-table thead tr th {padding-top: 10px}
+.sender {display: flex;flex-direction: column;justify-content: center;height: 40px}
+.sender .author,
+.sender .author-detail-description {line-height: 1.5em}
+.sender .author-detail-description {font-size: 0.8462rem;color: #999999}
+
+.table-responsive .table {min-width: 600px}
+
+.email-head-title {font-weight: 900}
