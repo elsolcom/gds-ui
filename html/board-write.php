@@ -12,8 +12,8 @@
               <div class="left-sidebar-content">
                 <ul class="sidebar-elements">
                   <li class="divider">Menu</li>
-                  <li class="active"><a href="notice-list.php"><i class="icon mdi mdi-assignment-alert"></i><span>공지사항</span></a></li>
-                  <li><a href="board-list.php"><i class="icon mdi mdi-assignment"></i><span>일반 게시판</span></a></li>
+                  <li><a href="notice-list.php"><i class="icon mdi mdi-assignment-alert"></i><span>공지사항</span></a></li>
+                  <li class="active"><a href="board-list.php"><i class="icon mdi mdi-assignment"></i><span>일반 게시판</span></a></li>
                 </ul>
               </div>
             </div>
@@ -25,7 +25,7 @@
 
         <div class="main-content container-fluid">
           <div class="email-head">
-            <div class="email-head-title">Compose new notice<span class="icon mdi mdi-edit"></span></div>
+            <div class="email-head-title">Compose new post<span class="icon mdi mdi-edit"></span></div>
           </div>
           <div class="email-compose-fields">
             <div class="subject">

@@ -1,6 +1,7 @@
 body {font-family: 'Noto Sans KR', "Roboto", Arial, sans-serif}
 
 .c10 {width: 10%}
+.c15 {width: 15%}
 .c20 {width: 20%}
 .c30 {width: 30%}
 .c60 {width: 60%}
@@ -108,3 +109,4 @@ body {font-family: 'Noto Sans KR', "Roboto", Arial, sans-serif}
 .table-responsive .table {min-width: 600px}
 
 .email-head-title {font-weight: 900}
+.email-compose-fields .attachments .inputfile + label {padding: 10px 20px}

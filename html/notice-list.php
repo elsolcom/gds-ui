@@ -13,7 +13,7 @@
                 <ul class="sidebar-elements">
                   <li class="divider">Menu</li>
                   <li class="active"><a href="notice-list.php"><i class="icon mdi mdi-assignment-alert"></i><span>공지사항</span></a></li>
-                  <li><a href="notice-list.php"><i class="icon mdi mdi-assignment"></i><span>일반 게시판</span></a></li>
+                  <li><a href="board-list.php"><i class="icon mdi mdi-assignment"></i><span>일반 게시판</span></a></li>
                 </ul>
               </div>
             </div>
@@ -37,10 +37,10 @@
                     </colgroup>
                       <thead>
                         <tr>
-                          <th scope="col">번호</th>
-                          <th scope="col">제목</th>
-                          <th scope="col">조회수</th>
-                          <th scope="col">작성일</th>
+                          <th scope="col">No</th>
+                          <th scope="col">Subject</th>
+                          <th scope="col">Views</th>
+                          <th scope="col">Date</th>
                         </tr>
                       </thead>
                       <tbody>

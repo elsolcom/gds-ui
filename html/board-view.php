@@ -51,7 +51,7 @@
           </div>
           <div class="row invoice-footer mt30">
             <div class="col-lg-12">
-              <a href="notice-list.php" class="btn btn-lg btn-space btn-secondary">목록</a>
+              <a href="board-list.php" class="btn btn-lg btn-space btn-secondary">목록</a>
             </div>
           </div>
         </div>
