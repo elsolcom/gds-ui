@@ -1,5 +1,5 @@
 $("a").click(function(){
-  if($(this).attr("href") == "#"){
+  if($(this).attr("href") == "#self"){
 	return false;
   };
 });
