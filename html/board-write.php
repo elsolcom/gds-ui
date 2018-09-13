@@ -5,21 +5,7 @@
 
       <?php include("include/nav.php"); ?>
 
-      <div class="be-left-sidebar">
-        <div class="left-sidebar-wrapper"><a class="left-sidebar-toggle" href="#">Blank Page</a>
-          <div class="left-sidebar-spacer">
-            <div class="left-sidebar-scroll">
-              <div class="left-sidebar-content">
-                <ul class="sidebar-elements">
-                  <li class="divider">Menu</li>
-                  <li><a href="notice-list.php"><i class="icon mdi mdi-assignment-alert"></i><span>공지사항</span></a></li>
-                  <li class="active"><a href="board-list.php"><i class="icon mdi mdi-assignment"></i><span>일반 게시판</span></a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      <?php include("include/sidebar.php"); ?>
 
       <div class="be-content">
 
@@ -65,12 +51,14 @@
     <script src="assets/lib/bootstrap/dist/js/bootstrap.bundle.min.js" type="text/javascript"></script>
     <script src="assets/js/app.js" type="text/javascript"></script>
 
+    <!-- write -->
     <script src="assets/lib/summernote/summernote-bs4.min.js" type="text/javascript"></script>
     <script src="assets/lib/summernote/summernote-ext-beagle.js" type="text/javascript"></script>
     <script src="assets/lib/select2/js/select2.min.js" type="text/javascript"></script>
     <script src="assets/lib/select2/js/select2.full.min.js" type="text/javascript"></script>
     <script src="assets/js/app-mail-compose.js" type="text/javascript"></script>
 
+    <!-- file -->
     <script src="assets/lib/datetimepicker/js/bootstrap-datetimepicker.min.js" type="text/javascript"></script>
     <script src="assets/lib/bootstrap-slider/bootstrap-slider.min.js" type="text/javascript"></script>
     <script src="assets/js/app-form-elements.js" type="text/javascript"></script>

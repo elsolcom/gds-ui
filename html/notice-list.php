@@ -5,21 +5,7 @@
 
       <?php include("include/nav.php"); ?>
 
-      <div class="be-left-sidebar">
-        <div class="left-sidebar-wrapper"><a class="left-sidebar-toggle" href="#">Blank Page</a>
-          <div class="left-sidebar-spacer">
-            <div class="left-sidebar-scroll">
-              <div class="left-sidebar-content">
-                <ul class="sidebar-elements">
-                  <li class="divider">Menu</li>
-                  <li class="active"><a href="notice-list.php"><i class="icon mdi mdi-assignment-alert"></i><span>공지사항</span></a></li>
-                  <li><a href="board-list.php"><i class="icon mdi mdi-assignment"></i><span>일반 게시판</span></a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      <?php include("include/sidebar.php"); ?>
 
       <div class="be-content">
         <div class="main-content container-fluid">
@@ -33,7 +19,7 @@
                         <col class="c10">
                         <col class="c60">
                         <col class="c10">
-                        <col class="c20">
+                        <col class="c15">
                     </colgroup>
                       <thead>
                         <tr>
@@ -44,6 +30,36 @@
                         </tr>
                       </thead>
                       <tbody>
+                        <tr>
+                          <td>5</td>
+                          <td><a href="notice-view.php" class="block">제목</a></td>
+                          <td>100</td>
+                          <td>2018.09.13</td>
+                        </tr>
+                        <tr>
+                          <td>4</td>
+                          <td><a href="notice-view.php" class="block">제목</a></td>
+                          <td>100</td>
+                          <td>2018.09.13</td>
+                        </tr>
+                        <tr>
+                          <td>3</td>
+                          <td><a href="notice-view.php" class="block">제목</a></td>
+                          <td>100</td>
+                          <td>2018.09.13</td>
+                        </tr>
+                        <tr>
+                          <td>2</td>
+                          <td><a href="notice-view.php" class="block">제목</a></td>
+                          <td>100</td>
+                          <td>2018.09.13</td>
+                        </tr>
+                        <tr>
+                          <td>1</td>
+                          <td><a href="notice-view.php" class="block">제목</a></td>
+                          <td>100</td>
+                          <td>2018.09.13</td>
+                        </tr>
                         <tr>
                           <td>1</td>
                           <td><a href="notice-view.php" class="block">제목</a></td>

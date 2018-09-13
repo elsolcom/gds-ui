@@ -5,21 +5,7 @@
 
       <?php include("include/nav.php"); ?>
 
-      <div class="be-left-sidebar">
-        <div class="left-sidebar-wrapper"><a class="left-sidebar-toggle" href="#">Blank Page</a>
-          <div class="left-sidebar-spacer">
-            <div class="left-sidebar-scroll">
-              <div class="left-sidebar-content">
-                <ul class="sidebar-elements">
-                  <li class="divider">Menu</li>
-                  <li class="active"><a href="notice-list.php"><i class="icon mdi mdi-assignment-alert"></i><span>공지사항</span></a></li>
-                  <li><a href="board-list.php"><i class="icon mdi mdi-assignment"></i><span>일반 게시판</span></a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      <?php include("include/sidebar.php"); ?>
 
       <div class="be-content">
 

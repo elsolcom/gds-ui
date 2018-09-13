@@ -106,7 +106,9 @@ body {font-family: 'Noto Sans KR', "Roboto", Arial, sans-serif}
 .sender .author-detail-description {line-height: 1.5em}
 .sender .author-detail-description {font-size: 0.8462rem;color: #999999}
 
-.table-responsive .table {min-width: 600px}
-
 .email-head-title {font-weight: 900}
 .email-compose-fields .attachments .inputfile + label {padding: 10px 20px}
+
+@media (max-width: 767.98px) {
+  .table-responsive .table {min-width: 600px}
+}
