@@ -22,7 +22,7 @@
         <div class="main-content container-fluid">
           <div class="row">
             <div class="col-md-12">
-              <div class="card card-border-color card-border-color-primary">
+              <div class="card">
                 <div class="card-header card-header-divider">검색설정</div>
                 <div class="card-body">
                   <form>

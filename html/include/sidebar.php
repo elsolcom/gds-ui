@@ -17,8 +17,8 @@
                         <ul class="sub-menu">
                           <li><a href="overview.php"><span>Overview</span></a></li>
                           <li><a href="total.php"><span>매출종합</span></a></li>
-                          <li><a href=""><span>공식몰매출(상품별)</span></a></li>
-                          <li><a href=""><span>외부몰매출(상품별)</span></a></li>
+                          <li><a href="official.php"><span>공식몰매출(상품별)</span></a></li>
+                          <li><a href="outside.php"><span>외부몰매출(상품별)</span></a></li>
                         </ul>
                       </li>
                       <li><a href=""><span>데이터 등록</span></a></li>
