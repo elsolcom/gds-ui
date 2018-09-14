@@ -30,7 +30,7 @@
                         <col class="c60">
                         <col class="c10">
                         <col class="c15">
-                    </colgroup>
+                      </colgroup>
                       <thead>
                         <tr>
                           <th scope="col">No</th>
@@ -40,6 +40,36 @@
                         </tr>
                       </thead>
                       <tbody>
+                        <tr>
+                          <td>10</td>
+                          <td><a href="notice-view.php" class="block">제목</a></td>
+                          <td>100</td>
+                          <td>2018.09.13</td>
+                        </tr>
+                        <tr>
+                          <td>9</td>
+                          <td><a href="notice-view.php" class="block">제목</a></td>
+                          <td>100</td>
+                          <td>2018.09.13</td>
+                        </tr>
+                        <tr>
+                          <td>8</td>
+                          <td><a href="notice-view.php" class="block">제목</a></td>
+                          <td>100</td>
+                          <td>2018.09.13</td>
+                        </tr>
+                        <tr>
+                          <td>7</td>
+                          <td><a href="notice-view.php" class="block">제목</a></td>
+                          <td>100</td>
+                          <td>2018.09.13</td>
+                        </tr>
+                        <tr>
+                          <td>6</td>
+                          <td><a href="notice-view.php" class="block">제목</a></td>
+                          <td>100</td>
+                          <td>2018.09.13</td>
+                        </tr>
                         <tr>
                           <td>5</td>
                           <td><a href="notice-view.php" class="block">제목</a></td>
@@ -82,10 +112,24 @@
                       </tbody>
                     </table>
                   </div>
+                  <div class="row be-datatable-footer">
+                    <ul class="pagination justify_end col-12 m-0">
+                      <li class="page-item"><a class="page-link" href="#" aria-label="Previous"><span class="mdi mdi-more" aria-hidden="true"></span></a></li>
+                      <li class="page-item"><a class="page-link" href="#">1</a></li>
+                      <li class="page-item active"><a class="page-link" href="#">2</a></li>
+                      <li class="page-item"><a class="page-link" href="#">3</a></li>
+                      <li class="page-item"><a class="page-link" href="#">4</a></li>
+                      <li class="page-item"><a class="page-link" href="#">5</a></li>
+                      <li class="page-item"><a class="page-link" href="#">6</a></li>
+                      <li class="page-item"><a class="page-link" href="#">7</a></li>
+                      <li class="page-item"><a class="page-link" href="#" aria-label="Next"><span class="mdi mdi-more" aria-hidden="true"></span></a></li>
+                    </ul>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
+
           <div class="row invoice-footer">
             <div class="col-lg-12">
               <a href="notice-write.php" class="btn btn-lg btn-space btn-primary">등록</a>
