@@ -1,6 +1,6 @@
       <nav class="navbar navbar-expand fixed-top be-top-header">
         <div class="container-fluid">
-          <div class="be-navbar-header"><a class="navbar-brand" href="index.php"></a>
+          <div class="be-navbar-header"><a class="navbar-brand" href="dashboard.php"></a>
           </div>
           <div class="be-right-navbar">
             <ul class="nav navbar-nav float-right be-user-nav">
@@ -14,7 +14,7 @@
               </li>
             </ul>
 
-            <div class="page-title"><span>페이지 제목</span></div>
+            <div class="page-title"><span>GROWTH DATA SYSTEM</span></div>
 
             <ul class="nav navbar-nav float-right be-icons-nav">
               <li class="nav-item dropdown"><a class="nav-link be-toggle-right-sidebar" href="#self" role="button" aria-expanded="false"><span class="icon mdi mdi-settings"></span></a></li>

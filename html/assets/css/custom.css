@@ -99,6 +99,9 @@ body {font-family: 'Noto Sans KR', "Roboto", Arial, sans-serif}
 
 .block {display: block}
 
+.be-top-header .page-title {font-weight: 900}
+.page-head .breadcrumb > .active {color: inherit;font-weight: 600}
+.page-head-title {font-weight: 300}
 .be-top-header .be-navbar-header .navbar-brand {background-image: url(../img/elsol_logo.png);width: 180px;height: 45px}
 .card-table thead tr th {padding-top: 10px}
 .sender {display: flex;flex-direction: column;justify-content: center;height: 40px}
@@ -106,7 +109,7 @@ body {font-family: 'Noto Sans KR', "Roboto", Arial, sans-serif}
 .sender .author-detail-description {line-height: 1.5em}
 .sender .author-detail-description {font-size: 0.8462rem;color: #999999}
 
-.email-head-title {font-weight: 900}
+.email-head-title {font-weight: 100}
 .email-compose-fields .attachments .inputfile + label {padding: 10px 20px}
 
 @media (max-width: 767.98px) {

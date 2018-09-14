@@ -8,6 +8,16 @@
       <?php include("include/sidebar.php"); ?>
 
       <div class="be-content">
+        <div class="page-head">
+          <h2 class="page-head-title">공지사항</h2>
+          <nav aria-label="breadcrumb" role="navigation">
+            <ol class="breadcrumb page-head-nav">
+              <li class="breadcrumb-item">Home</li>
+              <li class="breadcrumb-item">게시판</li>
+              <li class="breadcrumb-item active">공지사항</li>
+            </ol>
+          </nav>
+        </div>
         <div class="main-content container-fluid">
           <div class="row">
             <div class="col-sm-12">
