@@ -16,7 +16,7 @@
                       <li class="parent"><a href=""><span>통계</span></a>
                         <ul class="sub-menu">
                           <li><a href="overview.php"><span>Overview</span></a></li>
-                          <li><a href=""><span>매출종합</span></a></li>
+                          <li><a href="total.php"><span>매출종합</span></a></li>
                           <li><a href=""><span>공식몰매출(상품별)</span></a></li>
                           <li><a href=""><span>외부몰매출(상품별)</span></a></li>
                         </ul>
