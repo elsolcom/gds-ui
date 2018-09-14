@@ -1,4 +1,5 @@
 body {font-family: 'Noto Sans KR', "Roboto", Arial, sans-serif}
+label {cursor:pointer}
 
 .c10 {width: 10%}
 .c15 {width: 15%}
