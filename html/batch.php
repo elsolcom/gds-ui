@@ -8,17 +8,6 @@
       <?php include("include/sidebar.php"); ?>
 
       <div class="be-content">
-        <div class="page-head">
-          <h2 class="page-head-title">상품별 매출 일괄등록</h2>
-          <nav aria-label="breadcrumb" role="navigation">
-            <ol class="breadcrumb page-head-nav">
-              <li class="breadcrumb-item">Home</li>
-              <li class="breadcrumb-item">매출데이터</li>
-              <li class="breadcrumb-item">데이터 등록</li>
-              <li class="breadcrumb-item active">상품별 매출 일괄등록</li>
-            </ol>
-          </nav>
-        </div>
         <div class="main-content container-fluid">
           <div class="row">
             <div class="col-md-12">

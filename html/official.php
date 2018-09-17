@@ -8,17 +8,6 @@
       <?php include("include/sidebar.php"); ?>
 
       <div class="be-content">
-        <div class="page-head">
-          <h2 class="page-head-title">공식몰매출(상품별)</h2>
-          <nav aria-label="breadcrumb" role="navigation">
-            <ol class="breadcrumb page-head-nav">
-              <li class="breadcrumb-item">Home</li>
-              <li class="breadcrumb-item">매출데이터</li>
-              <li class="breadcrumb-item">통계</li>
-              <li class="breadcrumb-item active">공식몰매출(상품별)</li>
-            </ol>
-          </nav>
-        </div>
         <div class="main-content container-fluid">
           <div class="row">
             <div class="col-md-12">

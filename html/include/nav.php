@@ -14,7 +14,7 @@
               </li>
             </ul>
 
-            <div class="page-title"><span>GROWTH DATA SYSTEM</span></div>
+            <div class="page-title"><span>페이지 로케이션</span></div>
 
             <ul class="nav navbar-nav float-right be-icons-nav">
               <li class="nav-item dropdown"><a class="nav-link be-toggle-right-sidebar" href="#self" role="button" aria-expanded="false"><span class="icon mdi mdi-settings"></span></a></li>

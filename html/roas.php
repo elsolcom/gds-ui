@@ -8,17 +8,6 @@
       <?php include("include/sidebar.php"); ?>
 
       <div class="be-content">
-        <div class="page-head">
-          <h2 class="page-head-title">ROAS 데이터 일괄등록</h2>
-          <nav aria-label="breadcrumb" role="navigation">
-            <ol class="breadcrumb page-head-nav">
-              <li class="breadcrumb-item">Home</li>
-              <li class="breadcrumb-item">매체데이터</li>
-              <li class="breadcrumb-item">데이터 등록</li>
-              <li class="breadcrumb-item active">ROAS 데이터 일괄등록</li>
-            </ol>
-          </nav>
-        </div>
         <div class="main-content container-fluid">
           <div class="row">
             <div class="col-md-12">
@@ -83,14 +72,12 @@
     <script src="assets/lib/bootstrap/dist/js/bootstrap.bundle.min.js" type="text/javascript"></script>
     <script src="assets/js/app.js" type="text/javascript"></script>
 
-    <!-- write -->
+    <!-- form -->
     <script src="assets/lib/summernote/summernote-bs4.min.js" type="text/javascript"></script>
     <script src="assets/lib/summernote/summernote-ext-beagle.js" type="text/javascript"></script>
     <script src="assets/lib/select2/js/select2.min.js" type="text/javascript"></script>
     <script src="assets/lib/select2/js/select2.full.min.js" type="text/javascript"></script>
     <script src="assets/js/app-mail-compose.js" type="text/javascript"></script>
-
-    <!-- file -->
     <script src="assets/lib/datetimepicker/js/bootstrap-datetimepicker.min.js" type="text/javascript"></script>
     <script src="assets/lib/bootstrap-slider/bootstrap-slider.min.js" type="text/javascript"></script>
     <script src="assets/js/app-form-elements.js" type="text/javascript"></script>
