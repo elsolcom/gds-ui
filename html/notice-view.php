@@ -1,6 +1,6 @@
 <?php include("include/head.php"); ?>
 
-  <body>
+  <body class="be-animate">
     <div class="be-wrapper be-fixed-sidebar">
 
       <?php include("include/nav.php"); ?>

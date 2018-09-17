@@ -1,6 +1,6 @@
 <?php include("include/head.php"); ?>
 
-  <body>
+  <body class="be-animate">
     <div class="be-wrapper be-fixed-sidebar">
 
       <?php include("include/nav.php"); ?>
@@ -111,11 +111,10 @@
     <script src="assets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script> 
     <script src="assets/js/app.js"></script> 
     <script>
-          $(document).ready(function(){
-            //-initialize the javascript
-            App.init();
-          });
-          
-      </script>
+      $(document).ready(function(){
+        //-initialize the javascript
+        App.init();
+      });
+    </script>
   </body>
   </html>

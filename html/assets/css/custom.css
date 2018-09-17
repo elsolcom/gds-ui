@@ -124,7 +124,7 @@ label,
 .datetimepicker.input-group {padding: 0}
 .accordion.accordion-sm .card-header button {font-size: 1.185rem}
 .card-header-flex {display: flex;justify-content: space-between;align-items: center}
-
+.page-aside .content {padding: 20px 16px}
 
 @media (max-width: 767.98px) {
   .table-responsive .table {min-width: 600px}
