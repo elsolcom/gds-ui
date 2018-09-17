@@ -23,7 +23,12 @@
           <div class="row">
             <div class="col-md-12">
               <div class="card">
-                <div class="card-header card-header-divider">검색설정</div>
+                <div class="card-header card-header-divider card-header-flex">검색설정
+                  <div>
+                    <button class="btn btn-lg btn-primary" type="submit">검색</button>
+                    <button class="btn btn-lg btn-secondary" type="button"><i class="mdi mdi-download"></i> 엑셀 다운로드</button>
+                  </div>
+                </div>
                 <div class="card-body">
                   <form>
                     <div class="row">
@@ -46,7 +51,7 @@
                         </div>
                       </div>
                       <div class="col-12 col-lg-12 col-xl-3">
-                        <label class="control-label">주기설정</label>
+                        <label class="control-label" for="period">주기설정</label>
                         <select id="period" name="period" class="select2 select2-sm">
                           <option value="D" selected="">일</option>
                           <option value="W">주</option>
@@ -80,12 +85,6 @@
                           </div>
                         </div>
                       </div>
-                    </div>
-                    <div class="row">
-                      <p class="text-right col-sm-12">
-                        <button class="btn btn-lg btn-primary" type="submit">검색</button>
-                        <button class="btn btn-lg btn-secondary" type="button"><i class="mdi mdi-download"></i> 엑셀 다운로드</button>
-                      </p>
                     </div>
                   </form>
                   <div>jqgrid 들어갈 위치</div>

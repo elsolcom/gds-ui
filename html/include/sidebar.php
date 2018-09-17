@@ -21,7 +21,11 @@
                           <li><a href="outside.php"><span>외부몰매출(상품별)</span></a></li>
                         </ul>
                       </li>
-                      <li><a href=""><span>데이터 등록</span></a></li>
+                      <li class="parent"><a href=""><span>데이터 등록</span></a>
+                        <ul class="sub-menu">
+                          <li><a href="batch.php"><span>상품별 매출 일괄등록</span></a></li>
+                        </ul>
+                      </li>
                     </ul>
                   </li>
                 </ul>

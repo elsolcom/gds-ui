@@ -35,7 +35,7 @@
               <div class="form-group row">
                 <label class="col-12 col-sm-1 col-form-label" for="file-1">첨부파일</label>
                 <div class="col-12 col-sm-6">
-                  <input class="inputfile" id="file-1" type="file" name="file-1" data-multiple-caption="{count} files selected" multiple>
+                  <input class="inputfile inputfile-md" id="file-1" type="file" name="file-1" data-multiple-caption="{count} files selected" multiple>
                   <label class="btn-secondary" for="file-1"> <i class="mdi mdi-upload"></i><span>Browse files...</span></label>
                 </div>
               </div>
