@@ -37,7 +37,7 @@
                       </li>
                       <li class="parent"><a href=""><span>데이터 등록</span></a>
                         <ul class="sub-menu">
-                          <li><a href=""><span>ROAS 데이터 일괄등록</span></a></li>
+                          <li><a href="roas.php"><span>ROAS 데이터 일괄등록</span></a></li>
                         </ul>
                       </li>
                     </ul>

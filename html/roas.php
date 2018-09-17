@@ -9,13 +9,13 @@
 
       <div class="be-content">
         <div class="page-head">
-          <h2 class="page-head-title">상품별 매출 일괄등록</h2>
+          <h2 class="page-head-title">ROAS 데이터 일괄등록</h2>
           <nav aria-label="breadcrumb" role="navigation">
             <ol class="breadcrumb page-head-nav">
               <li class="breadcrumb-item">Home</li>
-              <li class="breadcrumb-item">매출데이터</li>
+              <li class="breadcrumb-item">매체데이터</li>
               <li class="breadcrumb-item">데이터 등록</li>
-              <li class="breadcrumb-item active">상품별 매출 일괄등록</li>
+              <li class="breadcrumb-item active">ROAS 데이터 일괄등록</li>
             </ol>
           </nav>
         </div>
@@ -25,7 +25,7 @@
               <div class="card">
                 <div class="card-header card-header-divider card-header-flex">데이터 등록
                   <div>
-                    <button class="btn btn-lg btn-primary" type="submit">등록</button>
+                    <button class="btn btn-lg btn-primary" type="submit">엑셀일괄등록</button>
                     <button class="btn btn-lg btn-secondary" type="button"><i class="mdi mdi-download"></i> 엑셀 템플릿 다운로드</button>
                   </div>
                 </div>
@@ -48,26 +48,18 @@
                       <div class="col-12 col-lg-12 col-xl-3">
                         <label class="control-label" for="media">매장(매체)</label>
                         <select id="media" name="media" class="select2 select2-sm">
-                          <option value="1">공식몰(Cafe24)</option>
-                          <option value="2">스토어팜</option>
-                          <option value="3">셀메이트</option>
-                          <option value="5">11번가</option>
-                          <option value="6">티몬</option>
-                          <option value="7">GS SHOP</option>
-                          <option value="8">CJ오쇼핑</option>
-                          <option value="9">지마켓</option>
-                          <option value="10">옥션</option>
-                          <option value="11">위메프</option>
-                          <option value="12">쿠팡</option>
-                          <option value="17">인터파크</option>
-                          <option value="26">사방넷</option>
-                          <option value="27">신세계몰</option>
-                          <option value="28">다이소몰</option>
-                          <option value="29">비즈마켓</option>
-                          <option value="30">하프클럽</option>
-                          <option value="31">스킨판다</option>
-                          <option value="32">이마트몰</option>
-                          <option value="51">리탭</option>
+                          <option value="13">네이버광고시스템</option>
+                          <option value="14">다음광고시스템</option>
+                          <option value="15">구글광고시스템</option>
+                          <option value="16">TG관리자</option>
+                          <option value="18">페이스북</option>
+                          <option value="24">AT(에이스 트레이더)</option>
+                          <option value="25">모비온관리자</option>
+                          <option value="41">리얼클릭</option>
+                          <option value="42">크리테오</option>
+                          <option value="43">아크로스</option>
+                          <option value="46">네이버브랜드검색</option>
+                          <option value="47">네이버쇼핑검색</option>
                         </select>
                       </div>
                       <div class="col-12 col-lg-12 col-xl-3">
