@@ -1,5 +1,5 @@
       <div class="be-left-sidebar">
-        <div class="left-sidebar-wrapper"><a class="left-sidebar-toggle" href="#">Blank Page</a>
+        <div class="left-sidebar-wrapper"><a class="left-sidebar-toggle" href="#">페이지 제목</a>
           <div class="left-sidebar-spacer">
             <div class="left-sidebar-scroll">
               <div class="left-sidebar-content">
@@ -47,7 +47,7 @@
                       <li><a href="menu.php">메뉴관리</a></li>
                       <li class="parent"><a href="#">사용자관리</a>
                         <ul class="sub-menu">
-                          <li><a href="">사용자그룹</a></li>
+                          <li><a href="group-list.php">사용자그룹</a></li>
                           <li><a href="">계정관리</a></li>
                         </ul>
                       </li>

@@ -1,7 +1,7 @@
 <?php include("include/head.php"); ?>
 
   <body>
-    <div class="be-wrapper">
+    <div class="be-wrapper be-fixed-sidebar">
 
       <?php include("include/nav.php"); ?>
 
@@ -23,9 +23,9 @@
                       <h4>메뉴 수정</h4>
                       <form>
                         <div class="form-group row">
-                          <label for="menu_name" class="col-12 col-sm-2 col-form-label text-sm-right">메뉴명</label>
+                          <label for="menu_name1" class="col-12 col-sm-2 col-form-label text-sm-right">메뉴명</label>
                           <div class="col-12 col-sm-8 col-sm-10">
-                            <select id="menu_name" name="menu_name" class="select2 select2-sm">
+                            <select id="menu_name1" name="menu_name1" class="select2 select2-sm">
                               <option value="M_ID_00006">게시판</option>
                               <option value="M_ID_00007">공지사항</option>
                               <option value="M_ID_00008">일반 게시판</option>
@@ -59,24 +59,24 @@
                           </div>
                         </div>
                         <div class="form-group row">
-                          <label for="menu_id" class="col-12 col-sm-2 col-form-label text-sm-right">메뉴ID</label>
-                          <div class="col-12 col-sm-8 col-sm-10"><input class="form-control form-control-sm" id="menu_id" type="text" placeholder="" readonly></div>
+                          <label for="menu_id1" class="col-12 col-sm-2 col-form-label text-sm-right">메뉴ID</label>
+                          <div class="col-12 col-sm-8 col-sm-10"><input class="form-control form-control-sm" id="menu_id1" type="text" placeholder="" readonly></div>
                         </div>
                         <div class="form-group row">
-                          <label for="title" class="col-12 col-sm-2 col-form-label text-sm-right">제목</label>
-                          <div class="col-12 col-sm-8 col-sm-10"><input class="form-control form-control-sm" id="title" type="text" placeholder=""></div>
+                          <label for="title1" class="col-12 col-sm-2 col-form-label text-sm-right">제목</label>
+                          <div class="col-12 col-sm-8 col-sm-10"><input class="form-control form-control-sm" id="title1" type="text" placeholder=""></div>
                         </div>
                         <div class="form-group row">
-                          <label for="memo" class="col-12 col-sm-2 col-form-label text-sm-right">메모</label>
-                          <div class="col-12 col-sm-8 col-sm-10"><input class="form-control form-control-sm" id="memo" type="text" placeholder=""></div>
+                          <label for="memo1" class="col-12 col-sm-2 col-form-label text-sm-right">메모</label>
+                          <div class="col-12 col-sm-8 col-sm-10"><input class="form-control form-control-sm" id="memo1" type="text" placeholder=""></div>
                         </div>
                         <div class="form-group row">
-                          <label for="url" class="col-12 col-sm-2 col-form-label text-sm-right">URL</label>
-                          <div class="col-12 col-sm-8 col-sm-10"><input class="form-control form-control-sm" id="url" type="url" placeholder=""></div>
+                          <label for="url1" class="col-12 col-sm-2 col-form-label text-sm-right">URL</label>
+                          <div class="col-12 col-sm-8 col-sm-10"><input class="form-control form-control-sm" id="url1" type="url" placeholder=""></div>
                         </div>
                         <div class="form-group row">
-                          <label for="seq" class="col-12 col-sm-2 col-form-label text-sm-right">메뉴순서</label>
-                          <div class="col-12 col-sm-8 col-sm-10"><input class="form-control form-control-sm" id="seq" type="text" placeholder=""></div>
+                          <label for="seq1" class="col-12 col-sm-2 col-form-label text-sm-right">메뉴순서</label>
+                          <div class="col-12 col-sm-8 col-sm-10"><input class="form-control form-control-sm" id="seq1" type="text" placeholder=""></div>
                         </div>
                         <div class="form-group row pt-1 pb-1">
                           <label for="admin04" class="col-12 col-sm-2 col-form-label text-sm-right">삭제</label>
@@ -102,27 +102,27 @@
                       <h4>메뉴 추가</h4>
                       <form>
                         <div class="form-group row">
-                          <label for="menu_id" class="col-12 col-sm-2 col-form-label text-sm-right">메뉴ID</label>
-                          <div class="col-12 col-sm-8 col-sm-10"><input class="form-control form-control-sm" id="menu_id" type="text" placeholder="" readonly></div>
+                          <label for="menu_id2" class="col-12 col-sm-2 col-form-label text-sm-right">메뉴ID</label>
+                          <div class="col-12 col-sm-8 col-sm-10"><input class="form-control form-control-sm" id="menu_id2" type="text" placeholder="" readonly></div>
                         </div>
                         <div class="form-group row">
-                          <label for="title" class="col-12 col-sm-2 col-form-label text-sm-right">제목</label>
-                          <div class="col-12 col-sm-8 col-sm-10"><input class="form-control form-control-sm" id="title" type="text" placeholder=""></div>
+                          <label for="title2" class="col-12 col-sm-2 col-form-label text-sm-right">제목</label>
+                          <div class="col-12 col-sm-8 col-sm-10"><input class="form-control form-control-sm" id="title2" type="text" placeholder=""></div>
                         </div>
                         <div class="form-group row">
-                          <label for="memo" class="col-12 col-sm-2 col-form-label text-sm-right">메모</label>
-                          <div class="col-12 col-sm-8 col-sm-10"><input class="form-control form-control-sm" id="memo" type="text" placeholder=""></div>
+                          <label for="memo2" class="col-12 col-sm-2 col-form-label text-sm-right">메모</label>
+                          <div class="col-12 col-sm-8 col-sm-10"><input class="form-control form-control-sm" id="memo2" type="text" placeholder=""></div>
                         </div>
                         <div class="form-group row">
-                          <label for="url" class="col-12 col-sm-2 col-form-label text-sm-right">URL</label>
-                          <div class="col-12 col-sm-8 col-sm-10"><input class="form-control form-control-sm" id="url" type="url" placeholder=""></div>
+                          <label for="url2" class="col-12 col-sm-2 col-form-label text-sm-right">URL</label>
+                          <div class="col-12 col-sm-8 col-sm-10"><input class="form-control form-control-sm" id="url2" type="url" placeholder=""></div>
                         </div>
                         <div class="form-group row">
-                          <label for="seq" class="col-12 col-sm-2 col-form-label text-sm-right">메뉴순서</label>
-                          <div class="col-12 col-sm-8 col-sm-10"><input class="form-control form-control-sm" id="seq" type="text" placeholder=""></div>
+                          <label for="seq2" class="col-12 col-sm-2 col-form-label text-sm-right">메뉴순서</label>
+                          <div class="col-12 col-sm-8 col-sm-10"><input class="form-control form-control-sm" id="seq2" type="text" placeholder=""></div>
                         </div>
                         <div class="form-group row pt-1 pb-1">
-                          <label for="admin04" class="col-12 col-sm-2 col-form-label text-sm-right">삭제</label>
+                          <label for="admin06" class="col-12 col-sm-2 col-form-label text-sm-right">삭제</label>
                           <div class="col-12 col-sm-8 col-lg-9 form-check mt-1">
                             <label for="admin06" class="custom-control custom-radio custom-control-inline">
                               <input class="custom-control-input" type="radio" name="radio-inline" checked="" id="admin06"><span class="custom-control-label">삭제</span>
@@ -272,26 +272,26 @@
       </div>
 
     </div><!-- be-wrapper -->
-    <script src="assets/lib/jquery/jquery.min.js" type="text/javascript"></script>
-    <script src="assets/lib/perfect-scrollbar/js/perfect-scrollbar.min.js" type="text/javascript"></script>
-    <script src="assets/lib/bootstrap/dist/js/bootstrap.bundle.min.js" type="text/javascript"></script>
-    <script src="assets/js/app.js" type="text/javascript"></script>
+    <script src="assets/lib/jquery/jquery.min.js"></script>
+    <script src="assets/lib/perfect-scrollbar/js/perfect-scrollbar.min.js"></script>
+    <script src="assets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/app.js"></script>
 
     <!-- form -->
-    <script src="assets/lib/summernote/summernote-bs4.min.js" type="text/javascript"></script>
-    <script src="assets/lib/summernote/summernote-ext-beagle.js" type="text/javascript"></script>
-    <script src="assets/lib/select2/js/select2.min.js" type="text/javascript"></script>
-    <script src="assets/lib/select2/js/select2.full.min.js" type="text/javascript"></script>
-    <script src="assets/js/app-mail-compose.js" type="text/javascript"></script>
-    <script src="assets/lib/datetimepicker/js/bootstrap-datetimepicker.min.js" type="text/javascript"></script>
-    <script src="assets/lib/bootstrap-slider/bootstrap-slider.min.js" type="text/javascript"></script>
-    <script src="assets/js/app-form-elements.js" type="text/javascript"></script>
+    <script src="assets/lib/summernote/summernote-bs4.min.js"></script>
+    <script src="assets/lib/summernote/summernote-ext-beagle.js"></script>
+    <script src="assets/lib/select2/js/select2.min.js"></script>
+    <script src="assets/lib/select2/js/select2.full.min.js"></script>
+    <script src="assets/js/app-mail-compose.js"></script>
+    <script src="assets/lib/datetimepicker/js/bootstrap-datetimepicker.min.js"></script>
+    <script src="assets/lib/bootstrap-slider/bootstrap-slider.min.js"></script>
+    <script src="assets/js/app-form-elements.js"></script>
 
     <!-- menu -->
-    <script src="assets/lib/jquery.nestable/jquery.nestable.js" type="text/javascript"></script>
-    <script src="assets/js/app-ui-nestable-lists.js" type="text/javascript"></script>
+    <script src="assets/lib/jquery.nestable/jquery.nestable.js"></script>
+    <script src="assets/js/app-ui-nestable-lists.js"></script>
 
-    <script type="text/javascript">
+    <script>
       $(document).ready(function(){
       	//-initialize the javascript
       	App.init();

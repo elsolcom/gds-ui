@@ -1,7 +1,7 @@
 <?php include("include/head.php"); ?>
 
   <body class="be-splash-screen">
-    <div class="be-wrapper be-login">
+    <div class="be-wrapper be-fixed-sidebar be-login">
       <div class="be-content">
         <div class="main-content container-fluid">
           <div class="splash-container">
@@ -32,11 +32,11 @@
         </div>
       </div>
     </div>
-    <script src="assets/lib/jquery/jquery.min.js" type="text/javascript"></script>
-    <script src="assets/lib/perfect-scrollbar/js/perfect-scrollbar.min.js" type="text/javascript"></script>
-    <script src="assets/lib/bootstrap/dist/js/bootstrap.bundle.min.js" type="text/javascript"></script>
-    <script src="assets/js/app.js" type="text/javascript"></script>
-    <script type="text/javascript">
+    <script src="assets/lib/jquery/jquery.min.js"></script>
+    <script src="assets/lib/perfect-scrollbar/js/perfect-scrollbar.min.js"></script>
+    <script src="assets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/app.js"></script>
+    <script>
       $(document).ready(function(){
       	//-initialize the javascript
       	App.init();

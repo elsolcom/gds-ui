@@ -1,7 +1,7 @@
 <?php include("include/head.php"); ?>
 
   <body>
-    <div class="be-wrapper">
+    <div class="be-wrapper be-fixed-sidebar">
 
       <?php include("include/nav.php"); ?>
 
@@ -103,24 +103,24 @@
       </div>
 
     </div><!-- be-wrapper -->
-    <script src="assets/lib/jquery/jquery.min.js" type="text/javascript"></script>
-    <script src="assets/lib/perfect-scrollbar/js/perfect-scrollbar.min.js" type="text/javascript"></script>
-    <script src="assets/lib/bootstrap/dist/js/bootstrap.bundle.min.js" type="text/javascript"></script>
-    <script src="assets/js/app.js" type="text/javascript"></script>
+    <script src="assets/lib/jquery/jquery.min.js"></script>
+    <script src="assets/lib/perfect-scrollbar/js/perfect-scrollbar.min.js"></script>
+    <script src="assets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/app.js"></script>
 
     <!-- write -->
-    <script src="assets/lib/summernote/summernote-bs4.min.js" type="text/javascript"></script>
-    <script src="assets/lib/summernote/summernote-ext-beagle.js" type="text/javascript"></script>
-    <script src="assets/lib/select2/js/select2.min.js" type="text/javascript"></script>
-    <script src="assets/lib/select2/js/select2.full.min.js" type="text/javascript"></script>
-    <script src="assets/js/app-mail-compose.js" type="text/javascript"></script>
+    <script src="assets/lib/summernote/summernote-bs4.min.js"></script>
+    <script src="assets/lib/summernote/summernote-ext-beagle.js"></script>
+    <script src="assets/lib/select2/js/select2.min.js"></script>
+    <script src="assets/lib/select2/js/select2.full.min.js"></script>
+    <script src="assets/js/app-mail-compose.js"></script>
 
     <!-- file -->
-    <script src="assets/lib/datetimepicker/js/bootstrap-datetimepicker.min.js" type="text/javascript"></script>
-    <script src="assets/lib/bootstrap-slider/bootstrap-slider.min.js" type="text/javascript"></script>
-    <script src="assets/js/app-form-elements.js" type="text/javascript"></script>
+    <script src="assets/lib/datetimepicker/js/bootstrap-datetimepicker.min.js"></script>
+    <script src="assets/lib/bootstrap-slider/bootstrap-slider.min.js"></script>
+    <script src="assets/js/app-form-elements.js"></script>
 
-    <script type="text/javascript">
+    <script>
       $(document).ready(function(){
       	//-initialize the javascript
       	App.init();
