@@ -28,6 +28,20 @@
                       </li>
                     </ul>
                   </li>
+                  <li class="parent"><a href="#"><i class="icon mdi mdi-chart"></i><span>매체데이터</span></a>
+                    <ul class="sub-menu">
+                      <li class="parent"><a href=""><span>통계</span></a>
+                        <ul class="sub-menu">
+                          <li><a href="overview_media.php"><span>Overview</span></a></li>
+                        </ul>
+                      </li>
+                      <li class="parent"><a href=""><span>데이터 등록</span></a>
+                        <ul class="sub-menu">
+                          <li><a href=""><span>ROAS 데이터 일괄등록</span></a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
                 </ul>
               </div>
             </div>
