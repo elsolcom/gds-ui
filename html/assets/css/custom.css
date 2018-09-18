@@ -128,6 +128,8 @@ label,
 .inputfile.inputfile-sm + label {padding: 3.5px 15px}
 .inputfile.inputfile-md + label {padding: 10px 20px;font-size: 1.2rem}
 .custom-controls-stacked .custom-control {display: inline-block;margin-right: 1.1105rem}
+.table tr th .custom-control.type2, 
+.table tr td .custom-control.type2 {margin-bottom: 0;padding-left: 2.1377rem}
 .datetimepicker.input-group {padding: 0}
 .accordion.accordion-sm .card-header button {font-size: 1.185rem}
 .card-header-flex {display: flex;justify-content: space-between;align-items: center}

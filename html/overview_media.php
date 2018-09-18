@@ -74,7 +74,7 @@
                           <div class="collapse show" id="collapseOne" aria-labelledby="headingOne" data-parent="#accordion">
                             <div class="card-body">
                               <div class="custom-controls-stacked">
-                                <label class="custom-control custom-checkbox" for="srhMedia"><input id="srhMedia" class="custom-control-input check_all" type="checkbox"><span class="custom-control-label">모두선택</span></label>
+                                <label class="custom-control custom-checkbox" for="srhMedia"><input id="srhMedia" class="custom-control-input check-all" type="checkbox"><span class="custom-control-label">모두선택</span></label>
                                 <label class="custom-control custom-checkbox" for="srhMedia1"><input id="srhMedia1" name="media[]" value="13" checked="" class="srhMedia custom-control-input" type="checkbox"><span class="custom-control-label">네이버광고시스템</span></label>
                                 <label class="custom-control custom-checkbox" for="srhMedia2"><input id="srhMedia2" name="media[]" value="14" checked="" class="srhMedia custom-control-input" type="checkbox"><span class="custom-control-label">다음광고시스템</span></label>
                                 <label class="custom-control custom-checkbox" for="srhMedia3"><input id="srhMedia3" name="media[]" value="15" class="srhMedia custom-control-input" type="checkbox"><span class="custom-control-label">구글광고시스템</span></label>

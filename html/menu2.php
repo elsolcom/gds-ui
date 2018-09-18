@@ -65,7 +65,7 @@
                           <div class="collapse" id="collapseOne" aria-labelledby="headingOne" data-parent="#accordion">
                             <div class="card-body">
                               <div class="custom-controls-stacked row">
-                                <div class="col-12"><label class="custom-control custom-checkbox" for="srhBiz"><input id="srhBiz" class="custom-control-input check_all" type="checkbox" checked><span class="custom-control-label">모두선택</span></label></div>
+                                <div class="col-12"><label class="custom-control custom-checkbox" for="srhBiz"><input id="srhBiz" class="custom-control-input check-all" type="checkbox" checked><span class="custom-control-label">모두선택</span></label></div>
                                 <div class="col-sm-6">
                                   <label class="custom-control custom-checkbox" for="srhBiz1"><input id="srhBiz1" name="biz_area[]" value="MELIKE" class="srhBiz custom-control-input" type="checkbox" checked><span class="custom-control-label">난이거</span></label>
                                   <label class="custom-control custom-checkbox" for="srhBiz2"><input id="srhBiz2" name="biz_area[]" value="NBR" class="srhBiz custom-control-input" type="checkbox" checked><span class="custom-control-label">누벨르</span></label>

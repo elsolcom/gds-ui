@@ -7,7 +7,7 @@ $("a").click(function(){
 $(function(){
   //전체동의
   var $checkbox = $('input[type="checkbox"]'),
-      $checkAll = $('.check_all');
+      $checkAll = $('.check-all');
 
   //전체 동의를 선택했을 경우
   $checkAll.on('click', function (e) {

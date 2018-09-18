@@ -1,0 +1,19 @@
+diff a/html/overview.php b/html/overview.php	(rejected hunks)
+@@ -8,17 +8,6 @@
+       <?php include("include/sidebar.php"); ?>
+ 
+       <div class="be-content">
+-        <div class="page-head">
+-          <h2 class="page-head-title">Overview</h2>
+-          <nav aria-label="breadcrumb" role="navigation">
+-            <ol class="breadcrumb page-head-nav">
+-              <li class="breadcrumb-item">Home</li>
+-              <li class="breadcrumb-item">매출데이터</li>
+-              <li class="breadcrumb-item">통계</li>
+-              <li class="breadcrumb-item active">Overview</li>
+-            </ol>
+-          </nav>
+-        </div>
+         <div class="main-content container-fluid">
+           <div class="row">
+             <div class="col-md-12">
