@@ -69,9 +69,9 @@
                       <div class="row">
                         <div class="card col-12">
                           <div class="card-header" id="headingOne">
-                            <button class="btn" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne" type="button"><i class="icon mdi mdi-chevron-right"></i> 미디어 제공 업체</button>
+                            <button class="btn" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" type="button"><i class="icon mdi mdi-chevron-right"></i> 미디어 제공 업체</button>
                           </div>
-                          <div class="collapse" id="collapseOne" aria-labelledby="headingOne" data-parent="#accordion">
+                          <div class="collapse show" id="collapseOne" aria-labelledby="headingOne" data-parent="#accordion">
                             <div class="card-body">
                               <div class="custom-controls-stacked">
                                 <label class="custom-control custom-checkbox" for="srhMedia"><input id="srhMedia" class="custom-control-input check_all" type="checkbox"><span class="custom-control-label">모두선택</span></label>
