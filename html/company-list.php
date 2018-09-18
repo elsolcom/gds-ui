@@ -10,7 +10,7 @@
       <div class="be-content">
         <div class="main-content container-fluid">
           <div class="be-aside-header">
-            <div class="row justify_end">
+            <div class="row justify_end align_center">
               <div class="col-lg-6">
                 <div class="be-aside-header-search">
                   <div class="input-group input-search input-group-sm">
@@ -28,94 +28,32 @@
                   <div class="table-responsive noSwipe">
                     <table class="table table-striped table-hover">
                       <colgroup>
-                        <col class="c16">
-                        <col class="c21">
-                        <col class="c21">
-                        <col class="c21">
-                        <col class="c21">
+                        <col class="c5">
+                        <col class="c10">
+                        <col class="c65">
+                        <col class="c5">
+                        <col class="c10">
                       </colgroup>
                       <thead>
                         <tr>
                           <th scope="col">번호</th>
-                          <th scope="col">아이디</th>
-                          <th scope="col">이름</th>
+                          <th scope="col">회사이름</th>
+                          <th scope="col">영문회사명</th>
                           <th scope="col">삭제</th>
                           <th scope="col">등록일</th>
                         </tr>
                       </thead>
                       <tbody>
-                        <tr onClick = " location.href='admin-write.php' ">
-                          <td>17</td>
-                          <td>shnam</td>
-                          <td>남승훈</td>
+                        <tr onClick = " location.href='company-write.php' ">
+                          <td>1</td>
+                          <td>엘솔컴퍼니</td>
+                          <td class="reLi01">ELSOLCOM</td>
                           <td>노출</td>
-                          <td>2018-09-03</td>
-                        </tr>
-                        <tr onClick = " location.href='admin-write.php' ">
-                          <td>16</td>
-                          <td>ldw</td>
-                          <td>임동욱</td>
-                          <td>노출</td>
-                          <td>2018-05-25</td>
-                        </tr>
-                        <tr onClick = " location.href='admin-write.php' ">
-                          <td>15</td>
-                          <td>keesik</td>
-                          <td>함기식</td>
-                          <td>노출</td>
-                          <td>2018-05-25</td>
-                        </tr>
-                        <tr onClick = " location.href='admin-write.php' ">
-                          <td>14</td>
-                          <td>rich</td>
-                          <td>이창헌</td>
-                          <td>노출</td>
-                          <td>2018-05-21</td>
-                        </tr>
-                        <tr onClick = " location.href='admin-write.php' ">
-                          <td>13</td>
-                          <td>leejoomy</td>
-                          <td>이주미</td>
-                          <td>노출</td>
-                          <td>2018-05-17</td>
-                        </tr>
-                        <tr onClick = " location.href='admin-write.php' ">
-                          <td>12</td>
-                          <td>leemk13579</td>
-                          <td>이민경</td>
-                          <td>노출</td>
-                          <td>2018-05-17</td>
-                        </tr>
-                        <tr onClick = " location.href='admin-write.php' ">
-                          <td>11</td>
-                          <td>uramaci</td>
-                          <td>노승욱</td>
-                          <td>노출</td>
-                          <td>2018-05-17</td>
-                        </tr>
-                        <tr onClick = " location.href='admin-write.php' ">
-                          <td>10</td>
-                          <td>lovyjy</td>
-                          <td>유진영</td>
-                          <td>노출</td>
-                          <td>2018-05-17</td>
-                        </tr>
-                        <tr onClick = " location.href='admin-write.php' ">
-                          <td>9</td>
-                          <td>unee</td>
-                          <td>장하윤</td>
-                          <td>노출</td>
-                          <td>2018-05-17</td>
-                        </tr>
-                        <tr onClick = " location.href='admin-write.php' ">
-                          <td>8</td>
-                          <td>lsj521</td>
-                          <td>이서정</td>
-                          <td>노출</td>
-                          <td>2018-05-17</td>
+                          <td class="cell-detail">2018-07-30 <span class="cell-detail-description">09:37:11</span></td>
                         </tr>
                       </tbody>
                     </table>
+
                   </div>
                   <div class="row be-datatable-footer">
                     <ul class="pagination justify_end col-12 m-0">
@@ -136,7 +74,7 @@
           </div>
           <div class="row invoice-footer">
             <div class="col-lg-12">
-              <a href="admin-write.php" class="btn btn-lg btn-space btn-primary">등록</a>
+              <a href="product-write.php" class="btn btn-lg btn-space btn-primary">등록</a>
             </div>
           </div>
         </div>
@@ -158,10 +96,14 @@
     <script src="assets/lib/bootstrap-slider/bootstrap-slider.min.js"></script>
     <script src="assets/js/app-form-elements.js"></script>
 
+    <!-- Select Filter -->
+    <script src="assets/js/app-booking.js"></script>
+
     <script>
       $(document).ready(function(){
       	//-initialize the javascript
-      	App.init();
+        App.init();
+      	App.booking();
       });
     </script>
   </body>

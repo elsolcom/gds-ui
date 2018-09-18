@@ -10,19 +10,20 @@
       <div class="be-content">
         <div class="main-content container-fluid">
           <div class="be-aside-header">
-            <div class="row justify_end">
+            <div class="row justify_end align_center">
+              <label class="custom-control custom-checkbox m-0" for="delete_yn"><input type="checkbox" id="delete_yn" name="delete_yn" value="Y" class="custom-control-input"><span class="custom-control-label">삭제포함</span></label>
               <div class="col-lg-2">
-                  <select id="biz_area" name="biz_area" class="select2 select2-sm">
-                    <option value="">전체</option>
-                    <option value="BRD">블랑드</option>
-                    <option value="COS">코스메리트</option>
-                    <option value="JMU">진마유</option>
-                    <option value="KMZ">카마존</option>
-                    <option value="MELIKE">난이거</option>
-                    <option value="NBR">누벨르</option>
-                    <option value="RETTEB">리탭</option>
-                    <option value="YS">영시</option>
-                  </select>
+                <select id="biz_area" name="biz_area" class="select2 select2-sm">
+                  <option value="">전체</option>
+                  <option value="BRD">블랑드</option>
+                  <option value="COS">코스메리트</option>
+                  <option value="JMU">진마유</option>
+                  <option value="KMZ">카마존</option>
+                  <option value="MELIKE">난이거</option>
+                  <option value="NBR">누벨르</option>
+                  <option value="RETTEB">리탭</option>
+                  <option value="YS">영시</option>
+                </select>
               </div>
               <div class="col-lg-6">
                 <div class="be-aside-header-search">
@@ -62,70 +63,70 @@
                             <td>난이거</td>
                             <td>GA CLP_campaign_CONTENT</td>
                             <td>노출</td>
-                            <td>2018-07-30 09:37:11</td>
+                            <td class="cell-detail">2018-07-30 <span class="cell-detail-description">09:37:11</span></td>
                         </tr>
                         <tr onClick = " location.href='productcate-write.php' ">
                             <td>1402</td>
                             <td>난이거</td>
                             <td>GA GROWTH_campaign</td>
                             <td>노출</td>
-                            <td>2018-07-30 09:37:11</td>
+                            <td class="cell-detail">2018-07-30 <span class="cell-detail-description">09:37:11</span></td>
                         </tr>
                         <tr onClick = " location.href='productcate-write.php' ">
                             <td>1401</td>
                             <td>난이거</td>
                             <td>GA GROWTH_medium</td>
                             <td>노출</td>
-                            <td>2018-07-30 09:37:11</td>
+                            <td class="cell-detail">2018-07-30 <span class="cell-detail-description">09:37:11</span></td>
                         </tr>
                         <tr onClick = " location.href='productcate-write.php' ">
                             <td>1303</td>
                             <td>블랑드</td>
                             <td>GA CLP_campaign_CONTENT</td>
                             <td>노출</td>
-                            <td>2018-07-30 09:37:11</td>
+                            <td class="cell-detail">2018-07-30 <span class="cell-detail-description">09:37:11</span></td>
                         </tr>
                         <tr onClick = " location.href='productcate-write.php' ">
                             <td>1302</td>
                             <td>블랑드</td>
                             <td>GA GROWTH_campaign</td>
                             <td>노출</td>
-                            <td>2018-07-30 09:37:11</td>
+                            <td class="cell-detail">2018-07-30 <span class="cell-detail-description">09:37:11</span></td>
                         </tr>
                         <tr onClick = " location.href='productcate-write.php' ">
                             <td>1301</td>
                             <td>블랑드</td>
                             <td>GA GROWTH_medium</td>
                             <td>노출</td>
-                            <td>2018-07-30 09:37:11</td>
+                            <td class="cell-detail">2018-07-30 <span class="cell-detail-description">09:37:11</span></td>
                         </tr>
                         <tr onClick = " location.href='productcate-write.php' ">
                             <td>1203</td>
                             <td>영시</td>
                             <td>GA CLP_campaign_CONTENT</td>
                             <td>노출</td>
-                            <td>2018-07-30 09:37:11</td>
+                            <td class="cell-detail">2018-07-30 <span class="cell-detail-description">09:37:11</span></td>
                         </tr>
                         <tr onClick = " location.href='productcate-write.php' ">
                             <td>1202</td>
                             <td>영시</td>
                             <td>GA GROWTH_campaign</td>
                             <td>노출</td>
-                            <td>2018-07-30 09:37:11</td>
+                            <td class="cell-detail">2018-07-30 <span class="cell-detail-description">09:37:11</span></td>
                         </tr>
                         <tr onClick = " location.href='productcate-write.php' ">
                             <td>1201</td>
                             <td>영시</td>
                             <td>GA GROWTH_medium</td>
                             <td>노출</td>
-                            <td>2018-07-30 09:37:11</td>
+                            <td class="cell-detail">2018-07-30 <span class="cell-detail-description">09:37:11</span></td>
                         </tr>
                         <tr onClick = " location.href='productcate-write.php' ">
                             <td>1103</td>
                             <td>진마유</td>
                             <td>GA CLP_campaign_CONTENT</td>
                             <td>노출</td>
-                            <td>2018-07-30 09:37:11</td>
+                            <td class="cell-detail">2018-07-30 <span class="cell-detail-description">09:37:11</span></td>
                         </tr>
                       </tbody>
                     </table>
@@ -149,7 +150,7 @@
           </div>
           <div class="row invoice-footer">
             <div class="col-lg-12">
-              <a href="productcate-write.php" class="btn btn-lg btn-space btn-primary">등록</a>
+              <a href="product-write.php" class="btn btn-lg btn-space btn-primary">등록</a>
             </div>
           </div>
         </div>

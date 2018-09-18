@@ -9,10 +9,18 @@
 
       <div class="be-content">
         <div class="main-content container-fluid">
-          <div class="card">
-            <div class="input-group input-search input-group-sm">
-              <input class="form-control" type="text" placeholder="Search"><span class="input-group-btn">
-                <button class="btn btn-secondary" type="button"><i class="icon mdi mdi-search"></i></button></span>
+          <div class="be-aside-header">
+            <div class="row">
+              <div class="col-lg-6">
+              </div>
+              <div class="col-lg-6">
+                <div class="be-aside-header-search">
+                  <div class="input-group input-search input-group-sm">
+                    <input class="form-control" type="text" placeholder="Search"><span class="input-group-btn">
+                      <button class="btn btn-secondary" type="button"><i class="icon mdi mdi-search"></i></button></span>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
           <div class="row">

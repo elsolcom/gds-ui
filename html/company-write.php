@@ -12,41 +12,31 @@
           <div class="row">
             <div class="col-12">
               <div class="card">
-                <div class="card-header card-header-divider">상품카테고리<span class="card-subtitle">This is the horizontal bootstrap layout</span></div>
+                <div class="card-header card-header-divider">회사코드<span class="card-subtitle">This is the horizontal bootstrap layout</span></div>
                 <div class="card-body">
                   <form>
                     <div class="form-group row">
-                      <label class="col-3 col-lg-3 col-form-label text-right" for="no">상품카테고리키</label>
+                      <label class="col-3 col-lg-3 col-form-label text-right" for="comp_name">회사이름</label>
                       <div class="col-9 col-lg-6">
-                        <input type="text" id="no" class="form-control form-control-sm" name="no" value="" placeholder="입력하지 않을시 자동입력">
+                        <input type="text" id="comp_name" class="form-control form-control-sm" name="comp_name" value="">
                       </div>
                     </div>
                     <div class="form-group row">
-                      <label class="col-3 col-lg-3 col-form-label text-right" for="business_area">브랜드</label>
+                      <label class="col-3 col-lg-3 col-form-label text-right" for="eng_name">영문회사명</label>
                       <div class="col-9 col-lg-6">
-                        <select id="business_area" name="business_area" valid="trim,required" element-name="브랜드" class="select2 select2-sm">
-                          <option value="">전체</option>
-                          <option value="BRD">블랑드</option>
-                          <option value="COS">코스메리트</option>
-                          <option value="JMU">진마유</option>
-                          <option value="KMZ">카마존</option>
-                          <option value="MELIKE">난이거</option>
-                          <option value="NBR">누벨르</option>
-                          <option value="RETTEB">리탭</option>
-                          <option value="YS">영시</option>
-                        </select>
+                        <input type="text" id="eng_name" class="form-control form-control-sm" name="eng_name" value="">
                       </div>
                     </div>
                     <div class="form-group row">
-                      <label class="col-3 col-lg-3 col-form-label text-right" for="cate_name">이름</label>
+                      <label class="col-3 col-lg-3 col-form-label text-right" for="comp_desc">설명</label>
                       <div class="col-9 col-lg-6">
-                        <input type="text" id="cate_name" class="form-control form-control-sm" name="cate_name" value="" valid="trim,required" element-name="이름">
+                        <input type="text" id="comp_desc" class="form-control form-control-sm" name="comp_desc" value="">
                       </div>
                     </div>
                     <div class="form-group row">
-                      <label class="col-3 col-lg-3 col-form-label text-right" for="cate_desc">설명</label>
+                      <label class="col-3 col-lg-3 col-form-label text-right" for="home_url">홈페이지 URL</label>
                       <div class="col-9 col-lg-6">
-                        <input type="text" id="cate_desc" class="form-control form-control-sm" name="cate_desc" value="">
+                        <input type="url" id="home_url" class="form-control form-control-sm" name="home_url" value="">
                       </div>
                     </div>
                     <div class="form-group row">
@@ -65,7 +55,7 @@
           <div class="row invoice-footer">
             <div class="col-lg-12">
               <button type="submit" onclick="" class="btn btn-lg btn-space btn-primary">등록</button>
-              <button type="submit" onclick = " location.href='productcate-list.php' " class="btn btn-lg btn-space btn-secondary">목록</button>
+              <button type="submit" onclick = " location.href='company-list.php' " class="btn btn-lg btn-space btn-secondary">목록</button>
             </div>
           </div>
         </div>

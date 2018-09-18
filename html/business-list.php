@@ -39,7 +39,7 @@
                             <col class="c10">
                         </colgroup>
                         <thead>
-                            <tr onClick = " location.href='store-write.php' ">
+                            <tr onClick = " location.href='business-write.php' ">
                                 <th scope="col">번호</th>
                                 <th scope="col">코드</th>
                                 <th scope="col">이름</th>
@@ -50,95 +50,95 @@
                             </tr>
                         </thead>
                         <tbody>
-                            <tr onClick = " location.href='store-write.php' ">
+                            <tr onClick = " location.href='business-write.php' ">
                                 <td>50</td>
-                                <td>@direct</td></td>
+                                <td>@direct</td>
                                 <td>direct for GA</td>
                                 <td>사용</td>
                                 <td>노출</td>
                                 <td>사용안함</td>
-                                <td class="cell-detail">2018-07-30 <span class="cell-detail-description">09:37:11</span></td>
+                                <td>2018-07-30 09:35:27</td>
                             </tr>
-                            <tr onClick = " location.href='store-write.php' ">
+                            <tr onClick = " location.href='business-write.php' ">
                                 <td>49</td>
                                 <td>@google</td>
                                 <td>google for GA</td>
                                 <td>사용</td>
                                 <td>노출</td>
                                 <td>사용안함</td>
-                                <td class="cell-detail">2018-07-30 <span class="cell-detail-description">09:37:11</span></td>
+                                <td>2018-07-30 09:35:27</td>
                             </tr>
-                            <tr onClick = " location.href='store-write.php' ">
+                            <tr onClick = " location.href='business-write.php' ">
                                 <td>48</td>
                                 <td>@daum</td>
                                 <td>daum for GA</td>
                                 <td>사용</td>
                                 <td>노출</td>
                                 <td>사용안함</td>
-                                <td class="cell-detail">2018-07-30 <span class="cell-detail-description">09:37:11</span></td>
+                                <td>2018-07-30 09:35:27</td>
                             </tr>
-                            <tr onClick = " location.href='store-write.php' ">
+                            <tr onClick = " location.href='business-write.php' ">
                                 <td>47</td>
                                 <td>@naver</td>
                                 <td>naver for GA</td>
                                 <td>사용</td>
                                 <td>노출</td>
                                 <td>사용안함</td>
-                                <td class="cell-detail">2018-07-30 <span class="cell-detail-description">09:37:11</span></td>
+                                <td>2018-07-30 09:35:27</td>
                             </tr>
-                            <tr onClick = " location.href='store-write.php' ">
+                            <tr onClick = " location.href='business-write.php' ">
                                 <td>46</td>
                                 <td>@tx</td>
                                 <td>AC for GA, (구)tx</td>
                                 <td>사용</td>
                                 <td>노출</td>
                                 <td>사용안함</td>
-                                <td class="cell-detail">2018-07-30 <span class="cell-detail-description">09:37:11</span></td>
+                                <td>2018-07-30 09:35:27</td>
                             </tr>
-                            <tr onClick = " location.href='store-write.php' ">
+                            <tr onClick = " location.href='business-write.php' ">
                                 <td>45</td>
                                 <td>@mobon</td>
                                 <td>mobon for GA</td>
                                 <td>사용</td>
                                 <td>노출</td>
                                 <td>사용안함</td>
-                                <td class="cell-detail">2018-07-30 <span class="cell-detail-description">09:37:11</span></td>
+                                <td>2018-07-30 09:35:27</td>
                             </tr>
-                            <tr onClick = " location.href='store-write.php' ">
+                            <tr onClick = " location.href='business-write.php' ">
                                 <td>44</td>
                                 <td>@facebook</td>
                                 <td>facebook for GA</td>
                                 <td>사용</td>
                                 <td>노출</td>
                                 <td>사용안함</td>
-                                <td class="cell-detail">2018-07-30 <span class="cell-detail-description">09:37:11</span></td>
+                                <td>2018-07-30 09:35:27</td>
                             </tr>
-                            <tr onClick = " location.href='store-write.php' ">
+                            <tr onClick = " location.href='business-write.php' ">
                                 <td>43</td>
                                 <td>@da_gdn</td>
                                 <td>gdnDA for GA</td>
                                 <td>사용</td>
                                 <td>노출</td>
                                 <td>사용안함</td>
-                                <td class="cell-detail">2018-07-30 <span class="cell-detail-description">09:37:11</span></td>
+                                <td>2018-07-30 09:35:27</td>
                             </tr>
-                            <tr onClick = " location.href='store-write.php' ">
+                            <tr onClick = " location.href='business-write.php' ">
                                 <td>42</td>
                                 <td>@sa_google</td>
                                 <td>googleSA for GA</td>
                                 <td>사용</td>
                                 <td>노출</td>
                                 <td>사용안함</td>
-                                <td class="cell-detail">2018-07-30 <span class="cell-detail-description">09:37:11</span></td>
+                                <td>2018-07-30 09:35:27</td>
                             </tr>
-                            <tr onClick = " location.href='store-write.php' ">
+                            <tr onClick = " location.href='business-write.php' ">
                                 <td>41</td>
                                 <td>@da_daum</td>
                                 <td>daumDA for GA</td>
                                 <td>사용</td>
                                 <td>노출</td>
                                 <td>사용안함</td>
-                                <td class="cell-detail">2018-07-30 <span class="cell-detail-description">09:37:11</span></td>
+                                <td>2018-07-30 09:35:27</td>
                             </tr>
                         </tbody>
                     </table>
@@ -162,7 +162,7 @@
           </div>
           <div class="row invoice-footer">
             <div class="col-lg-12">
-              <a href="store-write.php" class="btn btn-lg btn-space btn-primary">등록</a>
+              <a href="business-write.php" class="btn btn-lg btn-space btn-primary">등록</a>
             </div>
           </div>
         </div>
