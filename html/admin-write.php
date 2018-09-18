@@ -12,7 +12,7 @@
           <div class="row">
             <div class="col-lg-7">
               <div class="card">
-                <div class="card-header card-header-divider">Horizontal Form<span class="card-subtitle">This is the horizontal bootstrap layout</span></div>
+                <div class="card-header card-header-divider">사용자 정보<span class="card-subtitle">This is the horizontal bootstrap layout</span></div>
                 <div class="card-body">
                   <form data-parsley-validate="" novalidate="">
                     <div class="form-group row">

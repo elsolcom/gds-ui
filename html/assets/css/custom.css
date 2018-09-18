@@ -2,6 +2,7 @@ body {font-family: 'Noto Sans KR', "Roboto", Arial, sans-serif}
 label,
 [onclick] {cursor:pointer}
 
+.c5 {width: 5%}
 .c10 {width: 10%}
 .c15 {width: 15%}
 .c16 {width: 16%}
@@ -10,6 +11,8 @@ label,
 .c30 {width: 30%}
 .c33 {width: 33%}
 .c34 {width: 34%}
+.c45 {width: 45%}
+.c40 {width: 40%}
 .c60 {width: 60%}
 .c70 {width: 70%}
 .c80 {width: 80%}
