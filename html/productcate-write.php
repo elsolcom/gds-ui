@@ -16,13 +16,13 @@
                 <div class="card-body">
                   <form>
                     <div class="form-group row">
-                      <label class="col-3 col-lg-3 col-form-label text-right" for="">상품카테고리키</label>
+                      <label class="col-3 col-lg-3 col-form-label text-right" for="no">상품카테고리키</label>
                       <div class="col-9 col-lg-6">
                         <input type="text" id="no" class="form-control form-control-sm" name="no" value="">
                       </div>
                     </div>
                     <div class="form-group row">
-                      <label class="col-3 col-lg-3 col-form-label text-right" for="">브랜드</label>
+                      <label class="col-3 col-lg-3 col-form-label text-right" for="business_area">브랜드</label>
                       <div class="col-9 col-lg-6">
                         <select id="business_area" name="business_area" valid="trim,required" element-name="브랜드" class="select2 select2-sm">
                           <option value="">전체</option>
@@ -38,13 +38,13 @@
                       </div>
                     </div>
                     <div class="form-group row">
-                      <label class="col-3 col-lg-3 col-form-label text-right" for="">이름</label>
+                      <label class="col-3 col-lg-3 col-form-label text-right" for="cate_name">이름</label>
                       <div class="col-9 col-lg-6">
                         <input type="text" id="cate_name" class="form-control form-control-sm" name="cate_name" value="" valid="trim,required" element-name="이름">
                       </div>
                     </div>
                     <div class="form-group row">
-                      <label class="col-3 col-lg-3 col-form-label text-right" for="">설명</label>
+                      <label class="col-3 col-lg-3 col-form-label text-right" for="cate_desc">설명</label>
                       <div class="col-9 col-lg-6">
                         <input type="text" id="cate_desc" class="form-control form-control-sm" name="cate_desc" value="">
                       </div>
