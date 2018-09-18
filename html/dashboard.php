@@ -242,5 +242,13 @@
     <script src="assets/lib/jquery.sparkline/jquery.sparkline.min.js"></script>
     <script src="assets/lib/countup/countUp.min.js"></script>
     <script src="assets/js/app-dashboard.js"></script>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+      	//-initialize the javascript
+      	App.init();
+      	App.dashboard();
+      });
+    </script>
   </body>
 </html>

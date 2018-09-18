@@ -66,13 +66,13 @@
                             <div class="card-body">
                               <div class="custom-controls-stacked row">
                                 <div class="col-12"><label class="custom-control custom-checkbox" for="srhBiz"><input id="srhBiz" class="custom-control-input check_all" type="checkbox" checked><span class="custom-control-label">모두선택</span></label></div>
-                                <div class="col-6">
+                                <div class="col-sm-6">
                                   <label class="custom-control custom-checkbox" for="srhBiz1"><input id="srhBiz1" name="biz_area[]" value="MELIKE" class="srhBiz custom-control-input" type="checkbox" checked><span class="custom-control-label">난이거</span></label>
                                   <label class="custom-control custom-checkbox" for="srhBiz2"><input id="srhBiz2" name="biz_area[]" value="NBR" class="srhBiz custom-control-input" type="checkbox" checked><span class="custom-control-label">누벨르</span></label>
                                   <label class="custom-control custom-checkbox" for="srhBiz3"><input id="srhBiz3" name="biz_area[]" value="RETTEB" class="srhBiz custom-control-input" type="checkbox" checked><span class="custom-control-label">리탭</span></label>
                                   <label class="custom-control custom-checkbox" for="srhBiz4"><input id="srhBiz4" name="biz_area[]" value="BRD" class="srhBiz custom-control-input" type="checkbox" checked><span class="custom-control-label">블랑드</span></label>
                                 </div>
-                                <div class="col-6">
+                                <div class="col-sm-6">
                                   <label class="custom-control custom-checkbox" for="srhBiz5"><input id="srhBiz5" name="biz_area[]" value="YS" class="srhBiz custom-control-input" type="checkbox" checked><span class="custom-control-label">영시</span></label>
                                   <label class="custom-control custom-checkbox" for="srhBiz6"><input id="srhBiz6" name="biz_area[]" value="JMU" class="srhBiz custom-control-input" type="checkbox" checked><span class="custom-control-label">진마유</span></label>
                                   <label class="custom-control custom-checkbox" for="srhBiz7"><input id="srhBiz7" name="biz_area[]" value="KMZ" class="srhBiz custom-control-input" type="checkbox" checked><span class="custom-control-label">카마존</span></label>
@@ -94,8 +94,8 @@
           <div class="row be-booking-promos">
             <div class="col-md-12">
               <div class="card">
-              <div class="card-header card-header-divider">Overview
-                  <div class="tools dropdown"><span class="icon mdi mdi-download"></span><a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown"><span class="icon mdi mdi-more-vert"></span></a>
+                <div class="card-header card-header-divider">Overview
+                  <div class="tools dropdown"><a href="" class="icon mdi mdi-download" data-toggle="tooltip" data-placement="left" title="엑셀로 다운로드"></a><a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown"><span class="icon mdi mdi-more-vert"></span></a>
                     <div class="dropdown-menu" role="menu"><a class="dropdown-item" href="#">Action</a><a class="dropdown-item" href="#">Another action</a><a class="dropdown-item" href="#">Something else here</a>
                       <div class="dropdown-divider"></div><a class="dropdown-item" href="#">Separated link</a>
                     </div>

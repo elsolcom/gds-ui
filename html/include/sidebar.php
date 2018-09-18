@@ -5,7 +5,7 @@
               <div class="left-sidebar-content">
                 <ul class="sidebar-elements">
                   <li class="divider">Menu</li>
-                  <li class="parent"><a href="#"><i class="icon mdi mdi-assignment"></i>게시판</a>
+                  <li class="parent"><a href=""><i class="icon mdi mdi-assignment"></i>게시판</a>
                     <ul class="sub-menu">
                       <li><a href="notice-list.php">공지사항</a></li>
                       <li><a href="board-list.php">일반 게시판</a></li>
