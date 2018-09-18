@@ -55,7 +55,7 @@
                         <ul class="sub-menu">
                           <li><a href="">공통코드</a></li>
                           <li><a href="store-list.php">매장코드</a></li>
-                          <li><a href="">상품카테고리</a></li>
+                          <li><a href="productcate-list.php">상품카테고리</a></li>
                           <li><a href="">상품코드</a></li>
                           <li><a href="">상품코드매핑</a></li>
                           <li><a href="">사업영역코드</a></li>
