@@ -48,7 +48,7 @@
                       <li class="parent"><a href="#">사용자관리</a>
                         <ul class="sub-menu">
                           <li><a href="group-list.php">사용자그룹</a></li>
-                          <li><a href="">계정관리</a></li>
+                          <li><a href="admin-list.php">계정관리</a></li>
                         </ul>
                       </li>
                       <li class="parent"><a href="#">코드관리</a>

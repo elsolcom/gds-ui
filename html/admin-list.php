@@ -15,6 +15,7 @@
                 <button class="btn btn-secondary" type="button"><i class="icon mdi mdi-search"></i></button></span>
             </div>
           </div>
+
           <div class="row">
             <div class="col-12">
               <div class="card card-table">
@@ -31,75 +32,82 @@
                       <thead>
                         <tr>
                           <th scope="col">번호</th>
-                          <th scope="col">그룹ID</th>
-                          <th scope="col">그룹명</th>
+                          <th scope="col">아이디</th>
+                          <th scope="col">이름</th>
+                          <th scope="col">삭제</th>
                           <th scope="col">등록일</th>
-                          <th scope="col">메모</th>
                         </tr>
                       </thead>
                       <tbody>
-                        <tr onClick = " location.href='group-view.php' ">
-                            <td>9</td>
-                            <td>G_MGR</td>
-                            <td>시스템 일반 관리자</td>
-                            <td>2018-03-16</td>
-                            <td>시스템 일반 관리자</td>
+                        <tr onClick = " location.href='admin-write.php' ">
+                          <td>17</td>
+                          <td>shnam</td>
+                          <td>남승훈</td>
+                          <td>노출</td>
+                          <td>2018-09-03</td>
                         </tr>
-                        <tr onClick = " location.href='group-view.php' ">
-                            <td>8</td>
-                            <td>G_USR</td>
-                            <td>시스템 일반 사용자</td>
-                            <td>2018-03-16</td>
-                            <td>시스템 일반 사용자</td>
+                        <tr onClick = " location.href='admin-write.php' ">
+                          <td>16</td>
+                          <td>ldw</td>
+                          <td>임동욱</td>
+                          <td>노출</td>
+                          <td>2018-05-25</td>
                         </tr>
-                        <tr onClick = " location.href='group-view.php' ">
-                            <td>7</td>
-                            <td>G_ADMIN</td>
-                            <td>시스템 총괄 관리자</td>
-                            <td>2018-03-16</td>
-                            <td>Administrators</td>
+                        <tr onClick = " location.href='admin-write.php' ">
+                          <td>15</td>
+                          <td>keesik</td>
+                          <td>함기식</td>
+                          <td>노출</td>
+                          <td>2018-05-25</td>
                         </tr>
-                        <tr onClick = " location.href='group-view.php' ">
-                            <td>6</td>
-                            <td>G_GST_MEDIA</td>
-                            <td>매체 자료 전용 조회전용</td>
-                            <td>2018-03-16</td>
-                            <td>GUEST</td>
+                        <tr onClick = " location.href='admin-write.php' ">
+                          <td>14</td>
+                          <td>rich</td>
+                          <td>이창헌</td>
+                          <td>노출</td>
+                          <td>2018-05-21</td>
                         </tr>
-                        <tr onClick = " location.href='group-view.php' ">
-                            <td>5</td>
-                            <td>G_GST_SALES</td>
-                            <td>매출 자료 전용 조회전용</td>
-                            <td>2018-03-16</td>
-                            <td>GUEST</td>
+                        <tr onClick = " location.href='admin-write.php' ">
+                          <td>13</td>
+                          <td>leejoomy</td>
+                          <td>이주미</td>
+                          <td>노출</td>
+                          <td>2018-05-17</td>
                         </tr>
-                        <tr onClick = " location.href='group-view.php' ">
-                            <td>4</td>
-                            <td>G_MGR_MEDIA</td>
-                            <td>매체 자료 전용 관리자</td>
-                            <td>2018-03-16</td>
-                            <td>관리자</td>
+                        <tr onClick = " location.href='admin-write.php' ">
+                          <td>12</td>
+                          <td>leemk13579</td>
+                          <td>이민경</td>
+                          <td>노출</td>
+                          <td>2018-05-17</td>
                         </tr>
-                        <tr onClick = " location.href='group-view.php' ">
-                            <td>3</td>
-                            <td>G_MGR_SALES</td>
-                            <td>매출 자료 전용 관리자</td>
-                            <td>2018-03-16</td>
-                            <td>관리자</td>
+                        <tr onClick = " location.href='admin-write.php' ">
+                          <td>11</td>
+                          <td>uramaci</td>
+                          <td>노승욱</td>
+                          <td>노출</td>
+                          <td>2018-05-17</td>
                         </tr>
-                        <tr onClick = " location.href='group-view.php' ">
-                            <td>2</td>
-                            <td>G_USR_MEDIA</td>
-                            <td>매체 자료 전용 일반 사용자</td>
-                            <td>2018-03-16</td>
-                            <td>사용자</td>
+                        <tr onClick = " location.href='admin-write.php' ">
+                          <td>10</td>
+                          <td>lovyjy</td>
+                          <td>유진영</td>
+                          <td>노출</td>
+                          <td>2018-05-17</td>
                         </tr>
-                        <tr onClick = " location.href='group-view.php' ">
-                            <td>1</td>
-                            <td>G_USR_SALES</td>
-                            <td>매출 자료 전용 일반 사용자</td>
-                            <td>2018-03-16</td>
-                            <td>사용자</td>
+                        <tr onClick = " location.href='admin-write.php' ">
+                          <td>9</td>
+                          <td>unee</td>
+                          <td>장하윤</td>
+                          <td>노출</td>
+                          <td>2018-05-17</td>
+                        </tr>
+                        <tr onClick = " location.href='admin-write.php' ">
+                          <td>8</td>
+                          <td>lsj521</td>
+                          <td>이서정</td>
+                          <td>노출</td>
+                          <td>2018-05-17</td>
                         </tr>
                       </tbody>
                     </table>
@@ -123,7 +131,7 @@
           </div>
           <div class="row invoice-footer">
             <div class="col-lg-12">
-              <a href="group-write.php" class="btn btn-lg btn-space btn-primary">등록</a>
+              <a href="admin-write.php" class="btn btn-lg btn-space btn-primary">등록</a>
             </div>
           </div>
         </div>

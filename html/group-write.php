@@ -305,10 +305,6 @@
     <script src="assets/lib/bootstrap-slider/bootstrap-slider.min.js"></script>
     <script src="assets/js/app-form-elements.js"></script>
 
-    <!-- menu -->
-    <script src="assets/lib/jquery.nestable/jquery.nestable.js"></script>
-    <script src="assets/js/app-ui-nestable-lists.js"></script>
-
     <!-- Select Filter -->
     <script src="assets/js/app-booking.js"></script>
 
@@ -321,26 +317,26 @@
     </script>
 
 
-<script type="text/javascript">
-    $(document).ready(function(){
+    <script>
+      $(document).ready(function(){
 
-        $(document).on('click', '.check_all, .c2', function(e){
-            var area = $(this).attr("id");
-            if( $(this).is(":checked") ){
-                $("#"+area+"_list").find(":input[type=checkbox]").each(function(){
-                    $(this).prop("checked", true);
-                });
-            }else{
-                $("#"+area+"_list").find(":input[type=checkbox]").each(function(){
-                    $(this).prop("checked", false);
-                });
-            }
-        });
+          $(document).on('click', '.check_all, .c2', function(e){
+              var area = $(this).attr("id");
+              if( $(this).is(":checked") ){
+                  $("#"+area+"_list").find(":input[type=checkbox]").each(function(){
+                      $(this).prop("checked", true);
+                  });
+              }else{
+                  $("#"+area+"_list").find(":input[type=checkbox]").each(function(){
+                      $(this).prop("checked", false);
+                  });
+              }
+          });
 
-    });
+      });
 
-    //-->
-</script>
+      //-->
+    </script>
 
   </body>
 </html>
