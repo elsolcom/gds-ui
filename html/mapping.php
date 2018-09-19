@@ -194,7 +194,7 @@
                         <td><input type="text" id="code" class="form-control form-control-xs" name="code" value=""></td>
                         <td><textarea name="prd_name" id="prd_name" class="form-control form-control-xs"></textarea></td>
                         <td><input type="text" id="account_no" class="form-control form-control-xs" name="account_no" value=""></td>
-                        <td class="text-center"><label for="delete_yn_modal1" class="custom-control custom-checkbox custom-control-inline"><input type="checkbox" name="delete_yn_modal1" id="delete_yn_modal1" class="custom-control-input is-invalid" value="Y" /><span class="custom-control-label custom-control-color"><i class="blind">삭제</i></span></label></td>
+                        <td><label for="delete_yn_modal1" class="custom-control custom-checkbox custom-control-inline"><input type="checkbox" name="delete_yn_modal1" id="delete_yn_modal1" class="custom-control-input is-invalid" value="Y" /><span class="custom-control-label custom-control-color"><i class="blind">삭제</i></span></label></td>
                         <td><input type="text" id="prd_code" class="form-control form-control-xs" name="prd_code" value=""></td>
                         <td><textarea name="memo" id="memo" class="form-control form-control-xs"></textarea></td>
                         <td></td>
@@ -203,7 +203,7 @@
                         <td><input type="text" id="code_823" class="form-control form-control-xs" name="code_823" value="@stress"></td>
                         <td class="tal"><textarea name="prd_name_823" id="prd_name_823" class="form-control form-control-xs">난이거 스이거 CLP (stress)</textarea></td>
                         <td><input type="text" id="account_no_823" class="form-control form-control-xs" name="account_no_823" value="905"></td>
-                        <td class="text-center"><label for="delete_yn_modal2" class="custom-control custom-checkbox custom-control-inline"><input type="checkbox" name="delete_yn_modal2" id="delete_yn_modal2" class="custom-control-input is-invalid" value="Y" /><span class="custom-control-label custom-control-color"><i class="blind">삭제</i></span></label></td>
+                        <td><label for="delete_yn_modal2" class="custom-control custom-checkbox custom-control-inline"><input type="checkbox" name="delete_yn_modal2" id="delete_yn_modal2" class="custom-control-input is-invalid" value="Y" /><span class="custom-control-label custom-control-color"><i class="blind">삭제</i></span></label></td>
                         <td><input type="text" id="prd_code_823" class="form-control form-control-xs" name="prd_code_823" value=""></td>
                         <td class="tal"><textarea name="memo_823" id="memo_823" class="form-control form-control-xs">GA &gt; CLP &gt; campaign-난이거</textarea></td>
                         <td class="btns03"><a href="javascript:;" class="btn btn-sm btn-primary" no="823">수정</a></td>
