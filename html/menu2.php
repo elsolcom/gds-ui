@@ -373,6 +373,9 @@
     <script src="/assets/lib/jquery.nestable/jquery.nestable.js"></script>
     <script src="/assets/js/app-ui-nestable-lists.js"></script>
 
+    <!-- Select Filter -->
+    <script src="assets/js/app-booking.js"></script>
+
     <script>
       $(document).ready(function(){
       	//-initialize the javascript
@@ -380,6 +383,7 @@
         App.mailCompose();
         App.formElements();
         App.uiNestableLists();
+        App.booking();
       });
     </script>
   </body>
