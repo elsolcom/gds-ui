@@ -6,7 +6,7 @@
         <div class="main-content container-fluid">
           <div class="splash-container">
             <div class="card card-border-color card-border-color-primary">
-              <div class="card-header"><img class="logo-img" src="assets/img/elsol_logo.png" alt="logo"><span class="splash-description">Please enter your user information.</span></div>
+              <div class="card-header"><img class="logo-img" src="/assets/img/elsol_logo.png" alt="logo"><span class="splash-description">Please enter your user information.</span></div>
               <div class="card-body">
                 <form>
                   <div class="form-group">
@@ -32,10 +32,10 @@
         </div>
       </div>
     </div>
-    <script src="assets/lib/jquery/jquery.min.js"></script>
-    <script src="assets/lib/perfect-scrollbar/js/perfect-scrollbar.min.js"></script>
-    <script src="assets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/app.js"></script>
+    <script src="/assets/lib/jquery/jquery.min.js"></script>
+    <script src="/assets/lib/perfect-scrollbar/js/perfect-scrollbar.min.js"></script>
+    <script src="/assets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/assets/js/app.js"></script>
     <script>
       $(document).ready(function(){
       	//-initialize the javascript

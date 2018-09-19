@@ -81,23 +81,23 @@
       </div>
 
     </div><!-- be-wrapper -->
-    <script src="assets/lib/jquery/jquery.min.js"></script>
-    <script src="assets/lib/perfect-scrollbar/js/perfect-scrollbar.min.js"></script>
-    <script src="assets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/app.js"></script>
+    <script src="/assets/lib/jquery/jquery.min.js"></script>
+    <script src="/assets/lib/perfect-scrollbar/js/perfect-scrollbar.min.js"></script>
+    <script src="/assets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/assets/js/app.js"></script>
 
     <!-- form -->
-    <script src="assets/lib/summernote/summernote-bs4.min.js"></script>
-    <script src="assets/lib/summernote/summernote-ext-beagle.js"></script>
-    <script src="assets/lib/select2/js/select2.min.js"></script>
-    <script src="assets/lib/select2/js/select2.full.min.js"></script>
-    <script src="assets/js/app-mail-compose.js"></script>
-    <script src="assets/lib/datetimepicker/js/bootstrap-datetimepicker.min.js"></script>
-    <script src="assets/lib/bootstrap-slider/bootstrap-slider.min.js"></script>
-    <script src="assets/js/app-form-elements.js"></script>
+    <script src="/assets/lib/summernote/summernote-bs4.min.js"></script>
+    <script src="/assets/lib/summernote/summernote-ext-beagle.js"></script>
+    <script src="/assets/lib/select2/js/select2.min.js"></script>
+    <script src="/assets/lib/select2/js/select2.full.min.js"></script>
+    <script src="/assets/js/app-mail-compose.js"></script>
+    <script src="/assets/lib/datetimepicker/js/bootstrap-datetimepicker.min.js"></script>
+    <script src="/assets/lib/bootstrap-slider/bootstrap-slider.min.js"></script>
+    <script src="/assets/js/app-form-elements.js"></script>
 
     <!-- Select Filter -->
-    <script src="assets/js/app-booking.js"></script>
+    <script src="/assets/js/app-booking.js"></script>
 
     <script>
       $(document).ready(function(){

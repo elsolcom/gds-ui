@@ -23,7 +23,7 @@
                     <div class="row">
                       <div class="col-12 col-lg-12 col-xl-3">
                         <label class="control-label">기간설정</label>
-                        <div class="input-group date datetimepicker" id="dateSince" data-min-view="2" data-date-format="yyyymmdd">
+                        <div class="input-group date datetimepicker" id="dateSince" data-min-view="2" data-date-format="yyyy-mm-dd">
                           <input class="form-control form-control-sm" size="16" type="text" value="">
                           <div class="input-group-append">
                             <button class="btn btn-primary"><i class="icon-th mdi mdi-calendar"></i></button>
@@ -32,7 +32,7 @@
                       </div>
                       <div class="col-12 col-lg-12 col-xl-3">
                         <label class="control-label">&nbsp;</label>
-                        <div class="input-group date datetimepicker" id="dateTo" data-min-view="2" data-date-format="yyyymmdd">
+                        <div class="input-group date datetimepicker" id="dateTo" data-min-view="2" data-date-format="yyyy-mm-dd">
                           <input class="form-control form-control-sm" size="16" type="text" value="">
                           <div class="input-group-append">
                             <button class="btn btn-primary"><i class="icon-th mdi mdi-calendar"></i></button>
@@ -74,22 +74,22 @@
       </div>
 
     </div><!-- be-wrapper -->
-    <script src="assets/lib/jquery/jquery.min.js"></script>
-    <script src="assets/lib/perfect-scrollbar/js/perfect-scrollbar.min.js"></script>
-    <script src="assets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/app.js"></script>
+    <script src="/assets/lib/jquery/jquery.min.js"></script>
+    <script src="/assets/lib/perfect-scrollbar/js/perfect-scrollbar.min.js"></script>
+    <script src="/assets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/assets/js/app.js"></script>
 
     <!-- write -->
-    <script src="assets/lib/summernote/summernote-bs4.min.js"></script>
-    <script src="assets/lib/summernote/summernote-ext-beagle.js"></script>
-    <script src="assets/lib/select2/js/select2.min.js"></script>
-    <script src="assets/lib/select2/js/select2.full.min.js"></script>
-    <script src="assets/js/app-mail-compose.js"></script>
+    <script src="/assets/lib/summernote/summernote-bs4.min.js"></script>
+    <script src="/assets/lib/summernote/summernote-ext-beagle.js"></script>
+    <script src="/assets/lib/select2/js/select2.min.js"></script>
+    <script src="/assets/lib/select2/js/select2.full.min.js"></script>
+    <script src="/assets/js/app-mail-compose.js"></script>
 
     <!-- file -->
-    <script src="assets/lib/datetimepicker/js/bootstrap-datetimepicker.min.js"></script>
-    <script src="assets/lib/bootstrap-slider/bootstrap-slider.min.js"></script>
-    <script src="assets/js/app-form-elements.js"></script>
+    <script src="/assets/lib/datetimepicker/js/bootstrap-datetimepicker.min.js"></script>
+    <script src="/assets/lib/bootstrap-slider/bootstrap-slider.min.js"></script>
+    <script src="/assets/js/app-form-elements.js"></script>
 
     <script>
       $(document).ready(function(){

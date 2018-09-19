@@ -17,7 +17,7 @@
             </div>
             <div class="email-head-sender">
               <div class="date">2018.09.13 3:37</div>
-              <div class="avatar"><img src="assets/img/avatar3.png" alt="Avatar"></div>
+              <div class="avatar"><img src="/assets/img/avatar3.png" alt="Avatar"></div>
               <div class="sender"><span class="author">배재관</span><span class="author-detail-description">IT innovation. manager</span></div>
             </div>
           </div>
@@ -44,10 +44,10 @@
       </div>
 
     </div><!-- be-wrapper -->
-    <script src="assets/lib/jquery/jquery.min.js"></script>
-    <script src="assets/lib/perfect-scrollbar/js/perfect-scrollbar.min.js"></script>
-    <script src="assets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/app.js"></script>
+    <script src="/assets/lib/jquery/jquery.min.js"></script>
+    <script src="/assets/lib/perfect-scrollbar/js/perfect-scrollbar.min.js"></script>
+    <script src="/assets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/assets/js/app.js"></script>
     <script>
       $(document).ready(function(){
       	//-initialize the javascript

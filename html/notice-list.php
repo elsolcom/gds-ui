@@ -129,10 +129,10 @@
       </div>
 
     </div><!-- be-wrapper -->
-    <script src="assets/lib/jquery/jquery.min.js"></script>
-    <script src="assets/lib/perfect-scrollbar/js/perfect-scrollbar.min.js"></script>
-    <script src="assets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/app.js"></script>
+    <script src="/assets/lib/jquery/jquery.min.js"></script>
+    <script src="/assets/lib/perfect-scrollbar/js/perfect-scrollbar.min.js"></script>
+    <script src="/assets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/assets/js/app.js"></script>
     <script>
       $(document).ready(function(){
       	//-initialize the javascript
