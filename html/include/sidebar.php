@@ -57,7 +57,7 @@
                           <li><a href="store-list.php">매장코드</a></li>
                           <li><a href="productcate-list.php">상품카테고리</a></li>
                           <li><a href="product-list.php">상품코드</a></li>
-                          <li><a href="">상품코드매핑</a></li>
+                          <li><a href="mapping.php">상품코드매핑</a></li>
                           <li><a href="business-list.php">사업영역코드</a></li>
                           <li><a href="company-list.php">회사코드</a></li>
                         </ul>

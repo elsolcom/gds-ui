@@ -192,27 +192,27 @@
                       </thead>
                       <tbody>
                       <tr>
-                          <td class="user-avatar cell-detail user-info"><img src="assets/img/avatar6.png" alt="Avatar"><span>강문식</span></td>
+                          <td class="user-avatar cell-detail user-info"><img src="/assets/img/avatar6.png" alt="Avatar"><span>강문식</span></td>
                           <td class="cell-detail"><a href="board-view.php"><span>Initial commit</span><span class="cell-detail-description">Bootstrap Admin</span></a></td>
                           <td class="cell-detail"><span>2018.09.13</span></td>
                         </tr>
                         <tr>
-                          <td class="user-avatar cell-detail user-info"><img src="assets/img/avatar5.png" alt="Avatar"><span>차명건</span></td>
+                          <td class="user-avatar cell-detail user-info"><img src="/assets/img/avatar5.png" alt="Avatar"><span>차명건</span></td>
                           <td class="cell-detail"><a href="board-view.php"><span>Left sidebar adjusments</span><span class="cell-detail-description">Back-end Manager</span></a></td>
                           <td class="cell-detail"><span>2018.09.13</span></td>
                         </tr>
                         <tr>
-                          <td class="user-avatar cell-detail user-info"><img src="assets/img/avatar3.png" alt="Avatar"><span>정다희</span></td>
+                          <td class="user-avatar cell-detail user-info"><img src="/assets/img/avatar3.png" alt="Avatar"><span>정다희</span></td>
                           <td class="cell-detail"><a href="board-view.php">span>Topbar dropdown style</span><span class="cell-detail-description">Bootstrap Admin</span></a></td>
                           <td class="cell-detail"><span>2018.09.13</span></td>
                         </tr>
                         <tr>
-                          <td class="user-avatar cell-detail user-info"><img src="assets/img/avatar.png" alt="Avatar"><span>윤혜란</span></td>
+                          <td class="user-avatar cell-detail user-info"><img src="/assets/img/avatar.png" alt="Avatar"><span>윤혜란</span></td>
                           <td class="cell-detail"><a href="board-view.php"><span>Right sidebar adjusments</span><span class="cell-detail-description">CLI Connector</span></a></td>
                           <td class="cell-detail"><span>2018.09.13</span></td>
                         </tr>
                         <tr>
-                          <td class="user-avatar cell-detail user-info"><img src="assets/img/avatar4.png" alt="Avatar"><span>배재관</span></td>
+                          <td class="user-avatar cell-detail user-info"><img src="/assets/img/avatar4.png" alt="Avatar"><span>배재관</span></td>
                           <td class="cell-detail"><a href="board-view.php"><span>Main structure markup</span><span class="cell-detail-description">CLI Connector</span></a></td>
                           <td class="cell-detail"><span>2018.09.13</span></td>
                         </tr>
@@ -229,19 +229,19 @@
       </div>
 
     </div><!-- be-wrapper -->
-    <script src="assets/lib/jquery/jquery.min.js"></script>
-    <script src="assets/lib/perfect-scrollbar/js/perfect-scrollbar.min.js"></script>
-    <script src="assets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/app.js"></script>
+    <script src="/assets/lib/jquery/jquery.min.js"></script>
+    <script src="/assets/lib/perfect-scrollbar/js/perfect-scrollbar.min.js"></script>
+    <script src="/assets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/assets/js/app.js"></script>
 
     <!-- dashboard -->
-    <script src="assets/lib/jquery-flot/jquery.flot.js"></script>
-    <script src="assets/lib/jquery-flot/jquery.flot.pie.js"></script>
-    <script src="assets/lib/jquery-flot/plugins/curvedLines.js"></script>
-    <script src="assets/lib/jquery-flot/plugins/jquery.flot.tooltip.js"></script>
-    <script src="assets/lib/jquery.sparkline/jquery.sparkline.min.js"></script>
-    <script src="assets/lib/countup/countUp.min.js"></script>
-    <script src="assets/js/app-dashboard.js"></script>
+    <script src="/assets/lib/jquery-flot/jquery.flot.js"></script>
+    <script src="/assets/lib/jquery-flot/jquery.flot.pie.js"></script>
+    <script src="/assets/lib/jquery-flot/plugins/curvedLines.js"></script>
+    <script src="/assets/lib/jquery-flot/plugins/jquery.flot.tooltip.js"></script>
+    <script src="/assets/lib/jquery.sparkline/jquery.sparkline.min.js"></script>
+    <script src="/assets/lib/countup/countUp.min.js"></script>
+    <script src="/assets/js/app-dashboard.js"></script>
 
     <script type="text/javascript">
       $(document).ready(function(){
