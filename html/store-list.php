@@ -52,7 +52,7 @@
                         <tbody>
                             <tr onClick = " location.href='store-write.php' ">
                                 <td>50</td>
-                                <td>@direct</td></td>
+                                <td>@direct</td>
                                 <td>direct for GA</td>
                                 <td>사용</td>
                                 <td>노출</td>

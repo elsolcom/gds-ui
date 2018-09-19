@@ -11,7 +11,9 @@
         <div class="main-content container-fluid">
           <div class="be-aside-header">
             <div class="row justify_end align_center">
-              <label class="custom-control custom-checkbox m-0" for="delete_yn"><input type="checkbox" id="delete_yn" name="delete_yn" value="Y" class="custom-control-input"><span class="custom-control-label">삭제포함</span></label>
+              <div class="col-lg-2 text-right">
+                <label class="custom-control custom-checkbox custom-control-inline m-0" for="delete_yn"><input type="checkbox" id="delete_yn" name="delete_yn" value="Y" class="custom-control-input"><span class="custom-control-label">삭제포함</span></label>
+              </div>
               <div class="col-lg-2">
                 <select id="biz_area" name="biz_area" class="select2 select2-sm">
                   <option value="">전체</option>

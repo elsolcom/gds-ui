@@ -40,7 +40,7 @@
                       </div>
                     </div>
                     <div class="form-group row">
-                      <label class="col-3 col-lg-2 col-form-label text-right" for="inputWebSite">이메일</label>
+                      <label class="col-3 col-lg-2 col-form-label text-right" for="email_1">이메일</label>
                       <div class="col-9 col-lg-10">
                         <div class="row">
                           <div class="col-sm-4">
