@@ -166,9 +166,6 @@
                 </div>
                 <div class="table-responsive noSwipe">
                   <table class="table table-striped table-hover">
-                    <caption class="hdd">
-                    SMS 메시지 리스트 테이블
-                    </caption>
                     <colgroup>
                       <col class="c15">
                       <col class="c25">
