@@ -13,6 +13,7 @@ label,
 .c34 {width: 34%}
 .c45 {width: 45%}
 .c40 {width: 40%}
+.c55 {width: 55%}
 .c60 {width: 60%}
 .c65 {width: 65%}
 .c70 {width: 70%}
@@ -119,6 +120,8 @@ label,
 .flex_wrap {flex-wrap:wrap;-ms-flex-wrap: wrap}
 .flex_column {flex-direction: column}
 
+.blind {display: block;width: 0;height: 0;overflow: hidden;font-size:0;position: absolute}
+
 .be-top-header .page-title {font-weight: 100}
 .page-head .breadcrumb > .active {color: inherit;font-weight: 600}
 .page-head-title {font-weight: 300}
@@ -138,6 +141,9 @@ label,
 .accordion.accordion-sm .card-header button {font-size: 1.185rem}
 .card-header-flex {display: flex;justify-content: space-between;align-items: center}
 .page-aside .content {padding: 20px 16px}
+.sub_tr {display: none}
+.btn {font-weight: 400}
+.code_settings {color: #696767;font-size: 2rem}
 
 @media (max-width: 767.98px) {
   .table-responsive .table {min-width: 600px}

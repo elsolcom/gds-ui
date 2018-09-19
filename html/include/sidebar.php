@@ -53,7 +53,7 @@
                       </li>
                       <li class="parent"><a href="#">코드관리</a>
                         <ul class="sub-menu">
-                          <li><a href="">공통코드</a></li>
+                          <li><a href="code.php">공통코드</a></li>
                           <li><a href="store-list.php">매장코드</a></li>
                           <li><a href="productcate-list.php">상품카테고리</a></li>
                           <li><a href="product-list.php">상품코드</a></li>
