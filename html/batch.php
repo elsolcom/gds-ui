@@ -12,10 +12,10 @@
           <div class="row">
             <div class="col-md-12">
               <div class="card">
-                <div class="card-header card-header-divider card-header-flex">데이터 등록
+                <div class="card-header card-header-divider card-header-flex card-header-sm">데이터 등록
                   <div>
-                    <button class="btn btn-lg btn-primary" type="submit">등록</button>
-                    <button class="btn btn-lg btn-secondary" type="button"><i class="mdi mdi-download"></i> 엑셀 템플릿 다운로드</button>
+                    <button class="btn btn-primary" type="submit">등록</button>
+                    <button class="btn btn-secondary" type="button"><i class="mdi mdi-download"></i> 엑셀 템플릿 다운로드</button>
                   </div>
                 </div>
                 <div class="card-body">
@@ -23,7 +23,7 @@
                     <div class="row">
                       <div class="col-12 col-lg-12 col-xl-3">
                         <label class="control-label" for="biz_area">브랜드 선택</label>
-                        <select id="biz_area" name="biz_area" class="select2 select2-sm">
+                        <select id="biz_area" name="biz_area" class="select2 select2-xs">
                           <option value="MELIKE">난이거</option>
                           <option value="NBR" selected="">누벨르</option>
                           <option value="RETTEB">리탭</option>
@@ -36,7 +36,7 @@
                       </div>
                       <div class="col-12 col-lg-12 col-xl-3">
                         <label class="control-label" for="media">매장(매체)</label>
-                        <select id="media" name="media" class="select2 select2-sm">
+                        <select id="media" name="media" class="select2 select2-xs">
                           <option value="1">공식몰(Cafe24)</option>
                           <option value="2">스토어팜</option>
                           <option value="3">셀메이트</option>
@@ -61,7 +61,7 @@
                       </div>
                       <div class="col-12 col-lg-12 col-xl-3">
                         <label class="control-label" for="file-1">엑셀파일</label>
-                        <input class="inputfile inputfile-sm" id="file-1" type="file" name="file-1" data-multiple-caption="{count} files selected" multiple>
+                        <input class="inputfile inputfile-xs" id="file-1" type="file" name="file-1" data-multiple-caption="{count} files selected" multiple>
                         <label class="btn-secondary d-block" for="file-1"> <i class="mdi mdi-upload"></i><span>Browse files...</span></label>
                       </div>
                     </div>

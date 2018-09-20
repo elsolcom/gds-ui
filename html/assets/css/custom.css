@@ -142,6 +142,7 @@ label,
 .table tr td .custom-control.type2 {margin-bottom: 0;padding-left: 2.1377rem}
 .datetimepicker.input-group {padding: 0}
 .accordion.accordion-sm .card-header button {font-size: 1.185rem}
+.card-header.card-header-sm {padding: 1rem 0;margin-bottom: 0}
 .card-header-flex {display: flex;justify-content: space-between;align-items: center}
 .page-aside .content {padding: 20px 16px}
 .sub_tr {display: none}

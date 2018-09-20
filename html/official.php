@@ -12,10 +12,10 @@
           <div class="row">
             <div class="col-md-12">
               <div class="card">
-                <div class="card-header card-header-divider card-header-flex">검색설정
+                <div class="card-header card-header-divider card-header-flex card-header-sm">검색설정
                   <div>
-                    <button class="btn btn-lg btn-primary" type="submit">검색</button>
-                    <button class="btn btn-lg btn-secondary" type="button"><i class="mdi mdi-download"></i> 엑셀 다운로드</button>
+                    <button class="btn btn-primary" type="submit">검색</button>
+                    <button class="btn btn-secondary" type="button"><i class="mdi mdi-download"></i> 엑셀 다운로드</button>
                   </div>
                 </div>
                 <div class="card-body">
@@ -24,7 +24,7 @@
                       <div class="col-12 col-lg-12 col-xl-3">
                         <label class="control-label">기간설정</label>
                         <div class="input-group date datetimepicker" id="dateSince" data-min-view="2" data-date-format="yyyy-mm-dd">
-                          <input class="form-control form-control-sm" size="16" type="text" value="">
+                          <input class="form-control form-control-xs" size="16" type="text" value="">
                           <div class="input-group-append">
                             <button class="btn btn-primary"><i class="icon-th mdi mdi-calendar"></i></button>
                           </div>
@@ -33,7 +33,7 @@
                       <div class="col-12 col-lg-12 col-xl-3">
                         <label class="control-label">&nbsp;</label>
                         <div class="input-group date datetimepicker" id="dateTo" data-min-view="2" data-date-format="yyyy-mm-dd">
-                          <input class="form-control form-control-sm" size="16" type="text" value="">
+                          <input class="form-control form-control-xs" size="16" type="text" value="">
                           <div class="input-group-append">
                             <button class="btn btn-primary"><i class="icon-th mdi mdi-calendar"></i></button>
                           </div>
@@ -41,7 +41,7 @@
                       </div>
                     <div class="col-12 col-lg-12 col-xl-3">
                         <label class="control-label" for="period">주기설정</label>
-                        <select id="period" name="period" class="select2 select2-sm">
+                        <select id="period" name="period" class="select2 select2-xs">
                           <option value="D" selected="">일</option>
                           <option value="W">주</option>
                           <option value="M">월</option>
@@ -52,7 +52,7 @@
                       </div>
                       <div class="col-12 col-lg-12 col-xl-3">
                         <label class="control-label" for="biz_area">브랜드 선택</label>
-                        <select id="biz_area" name="biz_area" class="select2 select2-sm">
+                        <select id="biz_area" name="biz_area" class="select2 select2-xs">
                           <option value="MELIKE">난이거</option>
                           <option value="NBR" selected="">누벨르</option>
                           <option value="RETTEB">리탭</option>

@@ -32,7 +32,7 @@
                     <ul class="sub-menu">
                       <li class="parent"><a href="#">통계</a>
                         <ul class="sub-menu">
-                          <li><a href="overview_media.php">Overview</a></li>
+                          <li><a href="overview-media.php">Overview</a></li>
                         </ul>
                       </li>
                       <li class="parent"><a href="#">데이터 등록</a>
